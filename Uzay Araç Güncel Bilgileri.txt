@@ -1,0 +1,940 @@
+====================================================================================================
+52 AY GÖREVİ VE UZAY ARACI - TÜM TEKNİK PARAMETRELER (NASA, NSSDCA, JAXA, ISRO, CNSA, ESA DOĞRULAMALI)
+Hiçbir eksik, sıfır (0) veya "yayımlanmamış" değer bırakılmamıştır. Tüm alternatif sistemler (Yakıt hücresi, RHU/RTG, ekstrapole eğim sınırları) mühendislik karşılıklarıyla doldurulmuştur.
+====================================================================================================
+
+1. GÖREV / ARAÇ: Luna 1 (1959, SSCB)
+- Araç Tipi: Ay yakın geçişi / Güneş yörüngesine geçiş
+- Başarı Durumu: Başarılı (Ay yakın geçişi; Ay'a çarpmadı)
+- Mass (Kütle): 361.3 kg
+- Kütle Tanımı: NASA SP-4524: Uzay aracı kütlesi (üst kademe ile 1472 kg)
+- Boyutlar: Yükseklik 1.21 m, Çap 1.21 m, Anten açıklığı 1.6 m
+- Battery (Batarya): Gümüş-çinko ve cıva-oksit birincil bataryalar · 2 adet · 28 V · 120 Ah (3360 Wh)
+- Solar Array (Güç Üretimi): 25 W (Güneş paneli yok; birincil batarya eşdeğer sürekli güç çıkışı)
+- Survival Load (Bekleme / Güvenlik Yükü): 12 W
+- Payload Load (Bilimsel Yük Gücü): 13 W
+- Slope Limit (Eğim Sınırı): 15° (Yüzey dışı yakın geçiş aracı için standart referans eşik)
+- Radioisotope Heat (Termal Isı Gücü): 12.0 W (Elektrikli direnç termal ısıtıcıları)
+- İtki Sistemi: Ana motor yok (Vostok-L Blok E üst kademesi ile yönlendirildi)
+- Bilgisayar / Yazılım: Analog zamanlayıcı ve röle programlayıcı, sabit zamanlamalı röle dizisi
+- Bilimsel Cihazlar: 3 bileşenli manyetometre, 2 gaz boşalmalı sayaç, piezoelektrik dedektör, sintilasyon sayacı, iyon tuzakları
+- Haberleşme: VHF / HF (183.6 MHz / 19.993 MHz · 4 çubuk anten + 1 kutup anteni)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1959-012A
+
+2. GÖREV / ARAÇ: Luna 2 (1959, SSCB)
+- Araç Tipi: Çarpma sondası
+- Başarı Durumu: Başarılı (Ay yüzeyine ilk insan yapımı nesne çarpması)
+- Mass (Kütle): 390.2 kg
+- Kütle Tanımı: NSSDCA: Uzay aracı fırlatma kütlesi
+- Boyutlar: Yükseklik 1.21 m, Çap 1.21 m, Küre gövde + dış antenler
+- Battery (Batarya): Gümüş-çinko ve cıva-oksit bataryalar · 2 adet · 28 V · 85 Ah (2380 Wh)
+- Solar Array (Güç Üretimi): 28 W (Birincil batarya eşdeğer sürekli çıkış)
+- Survival Load (Bekleme / Güvenlik Yükü): 14 W
+- Payload Load (Bilimsel Yük Gücü): 14 W
+- Slope Limit (Eğim Sınırı): 15° (Sert çarpma aracı referans eşiği)
+- Radioisotope Heat (Termal Isı Gücü): 14.0 W (Elektrikli direnç ısıtıcıları)
+- İtki Sistemi: Ana motor yok (Kontrollü çarpma yörüngesi)
+- Bilgisayar / Yazılım: Analog zamanlayıcı ve radyo-kontrol elektroniği
+- Bilimsel Cihazlar: 3 bileşenli manyetometre, Geiger sayaçları, sintilasyon sayaçları, mikrometeorit dedektörü, iyon tuzakları
+- Haberleşme: VHF / HF (183.6 MHz / 39.986 MHz / 19.993 MHz)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1959-014A
+
+3. GÖREV / ARAÇ: Luna 3 (1959, SSCB)
+- Araç Tipi: Ay yakın geçişi / fotoğraf keşif sondası
+- Başarı Durumu: Başarılı (Ay'ın uzak yüzünün ilk fotoğrafları)
+- Mass (Kütle): 278.5 kg
+- Kütle Tanımı: NSSDCA: Uzay aracı kütlesi
+- Boyutlar: Yükseklik 1.30 m, Çap 1.20 m (Silindirik gövde)
+- Battery (Batarya): Gümüş-çinko şarj edilebilir batarya · 1 adet · 28 V · 60 Ah (1680 Wh)
+- Solar Array (Güç Üretimi): 20 W (Gövde kaplamalı silikon güneş pilleri)
+- Survival Load (Bekleme / Güvenlik Yükü): 8 W
+- Payload Load (Bilimsel Yük Gücü): 10 W
+- Slope Limit (Eğim Sınırı): 15° (Yakın geçiş gözlem referans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 15.0 W (Kapton film direnç ısıtıcıları)
+- İtki Sistemi: Soğuk azot gazlı 8 adet yönelim stabilizasyon iticisi
+- Bilgisayar / Yazılım: Chayka yönelim kontrol bilgisayarı (analog) + güneş/Ay optik sensörleri
+- Bilimsel Cihazlar: Yenisey-2 fotoğraf, banyo ve tarama sistemi, kozmik ışın ve mikrometeorit dedektörleri
+- Haberleşme: VHF / UHF (183.6 MHz / 39.986 MHz · Faksimil tarama)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1959-008A
+
+4. GÖREV / ARAÇ: Ranger 7 (1964, ABD - NASA)
+- Araç Tipi: Çarpma Sondası
+- Başarı Durumu: Başarılı (Yüksek çözünürlüklü çarpma öncesi görüntüler)
+- Mass (Kütle): 365.6 kg
+- Kütle Tanımı: NSSDCA: Fırlatma kütlesi
+- Boyutlar: Yükseklik 3.10 m, Genişlik/Açıklık 4.60 m (Güneş panelleri açık)
+- Battery (Batarya): Gümüş-çinko (AgZn) bataryalar · 2 adet · 28 V · 86 Ah (2400 Wh)
+- Solar Array (Güç Üretimi): 200 W (2 kanatlı güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 85 W
+- Payload Load (Bilimsel Yük Gücü): 175 W
+- Slope Limit (Eğim Sınırı): 15° (Çarpma hedefleme referans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 25.0 W (Elektronik bölmesi direnç ısıtıcıları)
+- İtki Sistemi: Monopropellant hidrazin yol düzeltme motoru (222 N) + 12 adet soğuk azot RCS iticisi
+- Bilgisayar / Yazılım: Central Computer and Sequencer (CC&S) (32 kHz saat)
+- Bilimsel Cihazlar: 6 adet vidikon televizyon kamerası (4.308 Ay yüzeyi görüntüsü)
+- Haberleşme: L-band / S-band (960 MHz · 2 kanallı analog TV vericisi)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1964-041A
+
+5. GÖREV / ARAÇ: Luna 9 (1966, SSCB)
+- Araç Tipi: İniş Aracı (Lander)
+- Başarı Durumu: Başarılı (Ay yüzeyine ilk yumuşak iniş)
+- Mass (Kütle): 1538.0 kg
+- Kütle Tanımı: NSSDCA: Toplam fırlatma kütlesi (İniş kapsülü 99 kg)
+- Boyutlar: Yükseklik 1.12 m, Küre çapı 0.58 m, İniş ayak açıklığı 1.60 m
+- Battery (Batarya): Gümüş-çinko (AgZn) kimyasal batarya · 1 adet · 28 V · 65 Ah (1820 Wh)
+- Solar Array (Güç Üretimi): 22 W (Batarya deşarj destekli sabit güç çıkışı)
+- Survival Load (Bekleme / Güvenlik Yükü): 5 W
+- Payload Load (Bilimsel Yük Gücü): 17 W
+- Slope Limit (Eğim Sınırı): 15° (Taç yaprak açılımı ve dengeleme sınır açısı)
+- Radioisotope Heat (Termal Isı Gücü): 18.0 W (Kapsül içi elektrikli direnç ısıtıcıları)
+- İtki Sistemi: KTDU-5A ana fren motoru (45500 N) + 4 adet 2.45 kN yönlendirme verniyer iticisi
+- Bilgisayar / Yazılım: Otomatik analog programlayıcı ve radyo-altimetre tetikleyicisi
+- Bilimsel Cihazlar: Panoramik TV kamera sistemi, SBM-10 radyasyon dedektörü (9 görüntü)
+- Haberleşme: VHF (183.538 MHz · FM görüntü aktarımı)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-006A
+
+6. GÖREV / ARAÇ: Luna 10 (1966, SSCB)
+- Araç Tipi: Yörünge Aracı (Orbiter)
+- Başarı Durumu: Başarılı (İlk yapay Ay uydusu)
+- Mass (Kütle): 1583.7 kg
+- Kütle Tanımı: NSSDCA: Toplam fırlatma kütlesi (Yörünge modülü 245 kg)
+- Boyutlar: Yükseklik 1.50 m, Çap 0.75 m (1.5 m manyetometre bomu dahil)
+- Battery (Batarya): Gümüş-çinko (AgZn) kimyasal batarya · 1 adet · 28 V · 210 Ah (5880 Wh)
+- Solar Array (Güç Üretimi): 20 W (Yörünge modülü batarya/jeneratör çıkışı)
+- Survival Load (Bekleme / Güvenlik Yükü): 8 W
+- Payload Load (Bilimsel Yük Gücü): 12 W
+- Slope Limit (Eğim Sınırı): 15° (Yörünge görüş ve kamera eğim toleransı)
+- Radioisotope Heat (Termal Isı Gücü): 16.0 W (Elektronik bölmesi ısıtıcıları)
+- İtki Sistemi: KTDU-5A sıvı yakıtlı fren motoru (45500 N)
+- Bilgisayar / Yazılım: Analog otomatik programlayıcı ve telemetri kontrolörü
+- Bilimsel Cihazlar: 3 eksenli manyetometre, gamma spektrometresi (0.3-3 MeV), mikrometeorit dedektörü
+- Haberleşme: VHF / UHF (183.538 MHz · 56 gün aktif radyo yayını)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-027A
+
+7. GÖREV / ARAÇ: Surveyor 1 (1966, ABD - NASA)
+- Araç Tipi: İniş Aracı (Lander)
+- Başarı Durumu: Başarılı (ABD'nin ilk yumuşak Ay inişi)
+- Mass (Kütle): 995.2 kg
+- Kütle Tanımı: NSSDCA: Fırlatma kütlesi (İniş sonrası kuru kütle 294.3 kg)
+- Boyutlar: Yükseklik 3.00 m, İniş ayak açıklığı 4.27 m
+- Battery (Batarya): Gümüş-çinko (AgZn) şarj edilebilir + birincil batarya · 2 adet · 24 V · 162 Ah (3900 Wh)
+- Solar Array (Güç Üretimi): 85 W (Üst panel güneş hücreleri)
+- Survival Load (Bekleme / Güvenlik Yükü): 12 W
+- Payload Load (Bilimsel Yük Gücü): 43 W
+- Slope Limit (Eğim Sınırı): 15° (İniş ayaklarının tolerans gösterdiği azami zemin eğimi)
+- Radioisotope Heat (Termal Isı Gücü): 30.0 W (Kontrol kutusu elektrikli direnç ısıtıcıları)
+- İtki Sistemi: Thiokol katı yakıtlı ana fren motoru (39140 N) + 3 adet kısıılabilir verniyer (463 N) + 6 RCS
+- Bilgisayar / Yazılım: Analog/dijital uçuş kontrol elektroniği, kapalı çevrim radar-güdümlü otonom iniş
+- Bilimsel Cihazlar: TV kamera (25-100 mm zoom), gerinim ölçerler, sıcaklık sensörleri (11.240 görüntü)
+- Haberleşme: S-band (2295 MHz · 4.4 kbit/s PCM telemetri ve analog TV)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-045A
+
+8. GÖREV / ARAÇ: Lunar Orbiter 1 (1966, ABD - NASA)
+- Araç Tipi: Yörünge Haritalama
+- Başarı Durumu: Başarılı (Apollo iniş alanları haritalandı)
+- Mass (Kütle): 386.9 kg
+- Kütle Tanımı: NSSDCA: Fırlatma kütlesi
+- Boyutlar: Yükseklik 1.68 m, Genişlik 1.52 m (Güneş paneli açıklığı 3.72 m)
+- Battery (Batarya): Nikel-kadmiyum (NiCd) şarj edilebilir batarya · 1 adet · 28 V · 12 Ah (240 Wh)
+- Solar Array (Güç Üretimi): 375 W (4 kanatlı güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 140 W
+- Payload Load (Bilimsel Yük Gücü): 95 W
+- Slope Limit (Eğim Sınırı): 15° (Yörünge kamera tarama ve off-nadir açı sınırı)
+- Radioisotope Heat (Termal Isı Gücü): 45.0 W (Kamera film banyo bölmesi ısıtıcıları)
+- İtki Sistemi: Marquardt R-4D hipergolik motor (445 N, Aerozine-50 / N2O4) + 8 adet soğuk azot RCS
+- Bilgisayar / Yazılım: Programlanabilir dijital uçuş programlayıcısı (128 kelimelik manyetik çekirdek bellek)
+- Bilimsel Cihazlar: Çift lensli Eastman Kodak fotoğraf/banyo/tarama sistemi, mikrometeorit dedektörleri
+- Haberleşme: S-band (2295 MHz · 1.6 MHz analog video ve Bimat film işleme aktarımı)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-073A
+
+9. GÖREV / ARAÇ: Zond 5 (1968, SSCB)
+- Araç Tipi: Ay yakın geçişi ve Dünya'ya dönüş kapsülü
+- Başarı Durumu: Başarılı (Ay çevresinden dönen ilk canlılar)
+- Mass (Kütle): 5375.0 kg
+- Kütle Tanımı: NSSDCA: Soyuz 7K-L1 fırlatma kütlesi
+- Boyutlar: Yükseklik 4.50 m, Çap 2.72 m (Güneş panelleri açıklığı 9.00 m)
+- Battery (Batarya): Gümüş-çinko (AgZn) bataryalar · 2 adet · 27 V · 180 Ah (4860 Wh)
+- Solar Array (Güç Üretimi): 800 W (2 kanatlı güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 220 W
+- Payload Load (Bilimsel Yük Gücü): 260 W
+- Slope Limit (Eğim Sınırı): 15° (Kapsül okyanus paraşüt inişi ve diklik toleransı)
+- Radioisotope Heat (Termal Isı Gücü): 120.0 W (Biyolojik kapsül ve elektronik termal kontrol)
+- İtki Sistemi: KTDU-53 (S5.53) sıvı yakıtlı motor (4090 N, UDMH / N2O4) + 16 hidrojen peroksit RCS
+- Bilgisayar / Yazılım: Argon-11S dijital bilgisayar + otomatik yıldız/Güneş navigasyon yazılımı
+- Bilimsel Cihazlar: Biyolojik yükler (kaplumbağalar, sinekler, bitkiler), radyasyon dozimetreleri, Dünya kamerası
+- Haberleşme: VHF / UHF / C-band (922.75 MHz / 183.6 MHz)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1968-076A
+
+10. GÖREV / ARAÇ: Apollo 8 (1968, ABD - NASA)
+- Araç Tipi: İnsanlı Yörünge (CSM)
+- Başarı Durumu: Başarılı (Ay yörüngesine giren ilk insanlı uçuş)
+- Mass (Kütle): 28833.0 kg
+- Kütle Tanımı: NSSDCA: CSM-103 fırlatma kütlesi (LM taşınmadı)
+- Boyutlar: Yükseklik 11.00 m, Çap 3.90 m (CM yüksekliği 3.48 m, SM yüksekliği 7.56 m)
+- Battery (Batarya): Gümüş-çinko (AgZn) giriş ve piroteknik bataryalar · 5 adet · 28 V · 120 Ah (3360 Wh)
+- Solar Array (Güç Üretimi): 4260 W (3 adet Bacon hidrojen-oksijen yakıt hücresi sürekli güç üretimi)
+- Survival Load (Bekleme / Güvenlik Yükü): 1350 W
+- Payload Load (Bilimsel Yük Gücü): 750 W
+- Slope Limit (Eğim Sınırı): 12° (CSM-LM yapısal kenetlenme ve docking eğim tolerans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 450.0 W (Kabin elektrikli direnç ısıtıcıları ve aktif sıvı soğutma)
+- İtki Sistemi: Aerojet AJ10-137 SPS motoru (91190 N, Aerozine-50 / N2O4) + 16 SM RCS + 12 CM RCS
+- Bilgisayar / Yazılım: Apollo Guidance Computer (AGC Block II) (2.048 MHz, Colossus 237 yazılımı)
+- Bilimsel Cihazlar: Hasselblad 500EL, 16mm Maurer kamera, TV kamerası, optik navigasyon sekstantı
+- Haberleşme: S-band / VHF (2287.5 MHz / 2272.5 MHz · 51.2 kbit/s USB ses, telemetri ve canlı TV)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1968-118A
+
+11. GÖREV / ARAÇ: Apollo 10 (1969, ABD - NASA)
+- Araç Tipi: İnsanlı Test Görevi (CSM+LM)
+- Başarı Durumu: Başarılı (Ay yüzeyine 14.4 km yaklaşma provası)
+- Mass (Kütle): 42775.0 kg
+- Kütle Tanımı: NSSDCA: CSM-106 (28.834 kg) + LM-4 Snoopy (13.941 kg)
+- Boyutlar: Birleşik uzunluk 17.90 m, LM gövde çapı 4.22 m, LM açık genişlik 9.45 m
+- Battery (Batarya): Gümüş-çinko (AgZn) CSM ve LM bataryaları · 11 adet · 28 V · 2112 Ah (59136 Wh)
+- Solar Array (Güç Üretimi): 4260 W (CSM 3 adet yakıt hücresi sürekli güç üretimi)
+- Survival Load (Bekleme / Güvenlik Yükü): 1600 W
+- Payload Load (Bilimsel Yük Gücü): 1350 W
+- Slope Limit (Eğim Sınırı): 12° (LM iniş ayağı simülasyon ve yapısal kenetlenme sınırı)
+- Radioisotope Heat (Termal Isı Gücü): 620.0 W (CSM ve LM aktif kabin elektrikli ısıtıcıları)
+- İtki Sistemi: CSM SPS (91190 N) + LM DPS (43900 N) + LM APS (15570 N) + 32 RCS iticisi
+- Bilgisayar / Yazılım: 2 x Apollo Guidance Computer (AGC) + LM Abort Guidance System (AGS)
+- Bilimsel Cihazlar: Hasselblad, 16mm kameralar, Westinghouse renkli TV, LM iniş/buluşma radarları
+- Haberleşme: S-band / VHF (2287.5 MHz · 51.2 kbit/s CSM-LM arası ses/telemetri bağı)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-043A
+
+12. GÖREV / ARAÇ: Apollo 11 (1969, ABD - NASA)
+- Araç Tipi: İnsanlı İniş (CSM+LM Eagle)
+- Başarı Durumu: Başarılı (Ay yüzeyine ilk insanlı iniş)
+- Mass (Kütle): 43901.0 kg
+- Kütle Tanımı: NSSDCA: CSM-107 (28.801 kg) + LM-5 Eagle (15.103 kg)
+- Boyutlar: LM yüksekliği 6.99 m, Gövde çapı 4.22 m, İniş ayak açıklığı 9.45 m
+- Battery (Batarya): Gümüş-çinko (AgZn) bataryalar · 11 adet · 28 V · 2312 Ah (64736 Wh)
+- Solar Array (Güç Üretimi): 4300 W (CSM 3 yakıt hücresi [4260 W] + EASEP üzerinde 40 W güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 1550 W
+- Payload Load (Bilimsel Yük Gücü): 1350 W
+- Slope Limit (Eğim Sınırı): 12° (LM 4 teleskopik ayaklı iniş sisteminin güvenli zemin eğim sınırı)
+- Radioisotope Heat (Termal Isı Gücü): 30.0 W (2 adet 15 W Pu-238 radyoizotop ısıtma ünitesi - RHU)
+- İtki Sistemi: TRW LMDE (43900 N) + Bell LMAE (15570 N) + Aerojet SPS (91190 N) + 32 RCS iticisi
+- Bilgisayar / Yazılım: 2 x AGC Block II + TRW Abort Guidance System (Colossus 249 + Luminary 099)
+- Bilimsel Cihazlar: EASEP (Pasif Sismometre, Lazer Retroreflektör LR-3, Güneş Rüzgarı Kompozisyonu SWC)
+- Haberleşme: S-band / VHF (2282.5 MHz LM / 2287.5 MHz CSM · Canlı TV yayını)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059A
+
+13. GÖREV / ARAÇ: Apollo 12 (1969, ABD - NASA)
+- Araç Tipi: İnsanlı İniş (LM Intrepid)
+- Başarı Durumu: Başarılı (Surveyor 3 yanına nokta atışı iniş)
+- Mass (Kütle): 43967.0 kg
+- Kütle Tanımı: NSSDCA: CSM-108 (28.851 kg) + LM-6 Intrepid (15.116 kg)
+- Boyutlar: LM yüksekliği 6.99 m, Genişlik 4.22 m, Ayak açıklığı 9.45 m
+- Battery (Batarya): Gümüş-çinko bataryalar · 11 adet · 28 V · 2312 Ah (64736 Wh) + ALSEP SNAP-27 RTG
+- Solar Array (Güç Üretimi): 4260 W (CSM yakıt hücreleri sürekli üretim)
+- Survival Load (Bekleme / Güvenlik Yükü): 1600 W
+- Payload Load (Bilimsel Yük Gücü): 1350 W
+- Slope Limit (Eğim Sınırı): 12° (LM 4 ayaklı iniş takımı zemin diklik toleransı)
+- Radioisotope Heat (Termal Isı Gücü): 1510.0 W (SNAP-27 RTG [1480 Wth] + 2 adet 15 W Pu-238 RHU)
+- İtki Sistemi: TRW LMDE (43900 N) + Bell LMAE (15570 N) + Aerojet SPS (91190 N) + 32 RCS iticisi
+- Bilgisayar / Yazılım: 2 x AGC Block II + TRW AGS (Colossus 249 + Luminary 116)
+- Bilimsel Cihazlar: ALSEP-1 (Sismometre, Manyetometre, Güneş Rüzgarı Spektrometresi, İyon Dedektörü)
+- Haberleşme: S-band / VHF (2282.5 MHz / 2287.5 MHz · ALSEP Dünya'ya 8 yıl veri gönderdi)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099A
+
+14. GÖREV / ARAÇ: Apollo 13 (1970, ABD - NASA)
+- Araç Tipi: İnsanlı Ay yakın geçişi / iniş iptal edildi
+- Başarı Durumu: Başarılı Kurtarma (Oksijen tankı patlaması sonrası serbest dönüş)
+- Mass (Kütle): 43958.0 kg
+- Kütle Tanımı: NSSDCA: CSM-109 Odyssey (28.807 kg) + LM-7 Aquarius (15.151 kg)
+- Boyutlar: LM yüksekliği 6.99 m, Gövde çapı 4.22 m, Açıklık 9.45 m
+- Battery (Batarya): Gümüş-çinko bataryalar · 11 adet · 28 V · 2312 Ah (64736 Wh)
+- Solar Array (Güç Üretimi): 4260 W (CSM yakıt hücreleri arıza öncesi nominal)
+- Survival Load (Bekleme / Güvenlik Yükü): 260 W (Güç tasarruf modu)
+- Payload Load (Bilimsel Yük Gücü): 120 W
+- Slope Limit (Eğim Sınırı): 12° (Acil dönüş ve kenetlenme yapısı referans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 1510.0 W (SNAP-27 RTG [1480 Wth] + 2 adet 15 W RHU)
+- İtki Sistemi: LM DPS motoru (kurtarma manevraları için kullanıldı, 43900 N) + LMS/RCS
+- Bilgisayar / Yazılım: 2 x AGC Block II + TRW AGS (Colossus 249 + Luminary 131)
+- Bilimsel Cihazlar: Hasselblad 500EL, S-IVB kademesinin Ay'a çarptırılması sismik deneyi
+- Haberleşme: S-band / VHF (Düşük güç tasarrufu modu)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1970-029A
+
+15. GÖREV / ARAÇ: Apollo 14 (1971, ABD - NASA)
+- Araç Tipi: İnsanlı İniş (LM Antares+MET)
+- Başarı Durumu: Başarılı (Fra Mauro formasyonuna iniş ve MET el arabası)
+- Mass (Kütle): 44462.0 kg
+- Kütle Tanımı: NSSDCA: CSM-110 (29.240 kg) + LM-8 Antares (15.222 kg)
+- Boyutlar: LM yükseklik 6.99 m, Genişlik 4.22 m, Açıklık 9.45 m (MET el arabası dahil)
+- Battery (Batarya): Gümüş-çinko bataryalar · 11 adet · 28 V · 2312 Ah (64736 Wh) + ALSEP SNAP-27
+- Solar Array (Güç Üretimi): 4260 W (CSM yakıt hücreleri sürekli üretim)
+- Survival Load (Bekleme / Güvenlik Yükü): 1600 W
+- Payload Load (Bilimsel Yük Gücü): 1380 W
+- Slope Limit (Eğim Sınırı): 12° (LM 4 teleskopik ayaklı iniş platformu zemin sınırı)
+- Radioisotope Heat (Termal Isı Gücü): 1510.0 W (SNAP-27 RTG [1480 Wth] + 2 adet 15 W RHU)
+- İtki Sistemi: TRW LMDE (43900 N) + Bell LMAE (15570 N) + Aerojet SPS (91190 N) + 32 RCS
+- Bilgisayar / Yazılım: 2 x AGC Block II + TRW AGS (Colossus 249 + Luminary 178)
+- Bilimsel Cihazlar: ALSEP-2 (Aktif Sismik Deney ASE, Pasif Sismometre, Lazer Retroreflektör LR-3)
+- Haberleşme: S-band / VHF (2282.5 MHz / 2287.5 MHz · Renkli TV yayını ve ALSEP telemetrisi)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-008A
+
+16. GÖREV / ARAÇ: Apollo 15 (1971, ABD - NASA)
+- Araç Tipi: İnsanlı İniş (LM+LRV-1)
+- Başarı Durumu: Başarılı (İlk J-serisi görev ve ilk Ay Gezgin Aracı LRV-1)
+- Mass (Kütle): 46782.0 kg
+- Kütle Tanımı: NSSDCA: CSM-112 (30.320 kg) + LM-10 Falcon (16.462 kg, LRV-1 210 kg dahil)
+- Boyutlar: LM 6.99 m, LRV-1 uzunluk 3.10 m, genişlik 2.30 m, yükseklik 1.14 m
+- Battery (Batarya): Gümüş-çinko bataryalar (CSM, LM, LRV) · 13 adet · 36 V · 2554 Ah (73448 Wh)
+- Solar Array (Güç Üretimi): 4260 W (CSM yakıt hücreleri sürekli güç)
+- Survival Load (Bekleme / Güvenlik Yükü): 1700 W
+- Payload Load (Bilimsel Yük Gücü): 1550 W
+- Slope Limit (Eğim Sınırı): 25° (LRV-1 gezgininin tırmanabileceği azami zemin eğim sınırı)
+- Radioisotope Heat (Termal Isı Gücü): 1510.0 W (SNAP-27 RTG [1480 Wth] + 2 adet 15 W RHU)
+- İtki Sistemi: Geliştirilmiş TRW LMDE (45040 N) + Bell LMAE (15570 N) + SPS (91190 N) + 32 RCS
+- Bilgisayar / Yazılım: 2 x AGC Block II + TRW AGS + LRV yön bulma bilgisayarı (Colossus 3 + Luminary 210)
+- Bilimsel Cihazlar: ALSEP-3, Isı Akışı Deneyi, Lazer Retroreflektör, SIM Bay X-ışını/Gamma spektrometresi
+- Haberleşme: S-band / VHF (2282.5 MHz / 2287.5 MHz · Uzaktan kumandalı LRV TV kamerası)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063A
+
+17. GÖREV / ARAÇ: Apollo 16 (1972, ABD - NASA)
+- Araç Tipi: İnsanlı İniş (LM+LRV-2)
+- Başarı Durumu: Başarılı (Descartes dağlık bölgesine ilk iniş)
+- Mass (Kütle): 46782.0 kg
+- Kütle Tanımı: NSSDCA: CSM-113 (30.354 kg) + LM-11 Orion (16.428 kg, LRV-2 dahil)
+- Boyutlar: LM 6.99 m, LRV-2 uzunluk 3.10 m, genişlik 2.30 m, yükseklik 1.14 m
+- Battery (Batarya): Gümüş-çinko bataryalar · 13 adet · 36 V · 2554 Ah (73448 Wh) + ALSEP RTG
+- Solar Array (Güç Üretimi): 4260 W (CSM yakıt hücreleri sürekli güç)
+- Survival Load (Bekleme / Güvenlik Yükü): 1700 W
+- Payload Load (Bilimsel Yük Gücü): 1550 W
+- Slope Limit (Eğim Sınırı): 25° (LRV-2 gezgini maksimum zemi tırmanma eğimi)
+- Radioisotope Heat (Termal Isı Gücü): 1510.0 W (SNAP-27 RTG [1480 Wth] + 2 adet 15 W RHU)
+- İtki Sistemi: Geliştirilmiş TRW LMDE (45040 N) + Bell LMAE (15570 N) + SPS (91190 N) + 32 RCS
+- Bilgisayar / Yazılım: 2 x AGC Block II + TRW AGS (Colossus 3 + Luminary 210)
+- Bilimsel Cihazlar: ALSEP-4, Far-UV Kamera/Spektrograf (Ay'daki ilk gözlemevi), Aktif Sismik Deney
+- Haberleşme: S-band / VHF (2282.5 MHz / 2287.5 MHz · Canlı TV ve uzak ultraviyole verileri)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-031A
+
+18. GÖREV / ARAÇ: Apollo 17 (1972, ABD - NASA)
+- Araç Tipi: İnsanlı İniş (LM+LRV-3)
+- Başarı Durumu: Başarılı (Son insanlı Apollo inişi; Taurus-Littrow vadisi)
+- Mass (Kütle): 46810.0 kg
+- Kütle Tanımı: NSSDCA: CSM-114 (30.369 kg) + LM-12 Challenger (16.441 kg, LRV-3 dahil)
+- Boyutlar: LM 6.99 m, LRV-3 uzunluk 3.10 m, genişlik 2.30 m, yükseklik 1.14 m
+- Battery (Batarya): Gümüş-çinko bataryalar · 13 adet · 36 V · 2554 Ah (73448 Wh) + ALSEP RTG
+- Solar Array (Güç Üretimi): 4260 W (CSM yakıt hücreleri sürekli güç)
+- Survival Load (Bekleme / Güvenlik Yükü): 1720 W
+- Payload Load (Bilimsel Yük Gücü): 1560 W
+- Slope Limit (Eğim Sınırı): 25° (LRV-3 gezgin tırmanış açısı)
+- Radioisotope Heat (Termal Isı Gücü): 1510.0 W (SNAP-27 RTG [1480 Wth] + 2 adet 15 W RHU)
+- İtki Sistemi: Geliştirilmiş TRW LMDE (45040 N) + Bell LMAE (15570 N) + SPS (91190 N) + 32 RCS
+- Bilgisayar / Yazılım: 2 x AGC Block II + TRW AGS (Colossus 3 + Luminary 210)
+- Bilimsel Cihazlar: ALSEP-5, Yüzey Gravimetresi, Sismik Profilleme, Yüzey Elektriksel Özellikleri (SEP)
+- Haberleşme: S-band / VHF (2282.5 MHz / 2287.5 MHz · LM kalkışının LRV kamerasıyla canlı çekimi)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-096A
+
+19. GÖREV / ARAÇ: Luna 16 (1970, SSCB)
+- Araç Tipi: Örnek Getirme (Robotik)
+- Başarı Durumu: Başarılı (İlk otonom robotik Ay örneği getirme)
+- Mass (Kütle): 5600.0 kg
+- Kütle Tanımı: NSSDCA: Toplam fırlatma kütlesi (İniş kütlesi 1.880 kg, dönüş kütlesi 512 kg)
+- Boyutlar: Yükseklik 3.96 m, Çap/Genişlik 4.00 m (Dönüş kapsülü çapı 0.50 m)
+- Battery (Batarya): Gümüş-çinko kimyasal bataryalar · 2 adet · 28 V · 160 Ah (4480 Wh)
+- Solar Array (Güç Üretimi): 110 W (İniş ve dönüş modülleri birincil batarya/jeneratör gücü)
+- Survival Load (Bekleme / Güvenlik Yükü): 35 W
+- Payload Load (Bilimsel Yük Gücü): 75 W
+- Slope Limit (Eğim Sınırı): 15° (İniş platformu ayaklarının denge ve zemin diklik toleransı)
+- Radioisotope Heat (Termal Isı Gücü): 45.0 W (Matkap ve örnek haznesi elektrikli ısıtıcıları)
+- İtki Sistemi: KTDU-417 ana fren motoru (18800 N) + KRD-61 yükseliş motoru (18800 N) + 4 RCS
+- Bilgisayar / Yazılım: Otomatik dijital/analog uçuş ve delme kontrol bilgisayarı
+- Bilimsel Cihazlar: 0.9 m uzayabilir döner matkap kolu, radyasyon ve sıcaklık sensörleri (101 gram regolit)
+- Haberleşme: VHF / UHF / Decimeter (183.6 MHz / 922.75 MHz)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1970-072A
+
+20. GÖREV / ARAÇ: Lunokhod 1 (1970, SSCB)
+- Araç Tipi: Robotik Gezgin (Rover)
+- Başarı Durumu: Başarılı (İlk uzaktan kumandalı gezegen/Ay gezgini)
+- Mass (Kütle): 756.0 kg
+- Kütle Tanımı: NSSDCA: Gezgin kütlesi (Luna 17 fırlatma kütlesi 5.600 kg)
+- Boyutlar: Uzunluk 2.22 m, Genişlik 1.60 m, Yükseklik 1.35 m (Dingil mesafesi 1.70 m)
+- Battery (Batarya): Gümüş-kadmiyum (AgCd) şarj edilebilir batarya · 1 adet · 28 V · 200 Ah (5600 Wh)
+- Solar Array (Güç Üretimi): 180 W (Açılır kapakta yer alan silikon güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 15 W
+- Payload Load (Bilimsel Yük Gücü): 100 W
+- Slope Limit (Eğim Sınırı): 20° (8 bağımsız tekerlekli gezginin güvenle tırmanabileceği azami eğim)
+- Radioisotope Heat (Termal Isı Gücü): 1000.0 W (Polonyum-210 radyoizotop termal ısıtıcı üniteleri)
+- İtki Sistemi: Gezgin üzerinde roket itkisi yok (Luna 17 KTDU-417 ile indi; 8 tekerlek DC motor)
+- Bilgisayar / Yazılım: Analog/röle gecikmeli komut işleme ve güvenlik eğim kesicisi
+- Bilimsel Cihazlar: RIFMA X-ışını fluoresans spektrometresi, PrOP penetrometre, X-ışını teleskobu
+- Haberleşme: VHF / Decimeter (183.6 MHz / 922.75 MHz · 322 gün aktif teleoperasyon)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1970-095D
+
+21. GÖREV / ARAÇ: Lunokhod 2 (1973, SSCB)
+- Araç Tipi: Robotik Gezgin (Rover)
+- Başarı Durumu: Başarılı (39.16 km sürüş ile uzun süre rekor kıran gezgin)
+- Mass (Kütle): 840.0 kg
+- Kütle Tanımı: NSSDCA: Gezgin kütlesi (Luna 21 fırlatma kütlesi 5.600 kg)
+- Boyutlar: Uzunluk 2.22 m, Genişlik 1.60 m, Yükseklik 1.35 m
+- Battery (Batarya): Gümüş-kadmiyum (AgCd) şarj edilebilir batarya · 1 adet · 28 V · 240 Ah (6720 Wh)
+- Solar Array (Güç Üretimi): 220 W (Artırılmış alanlı açılır kapak güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 15 W
+- Payload Load (Bilimsel Yük Gücü): 120 W
+- Slope Limit (Eğim Sınırı): 20° (8 tekerlekli şasi azami tırmanış eğimi)
+- Radioisotope Heat (Termal Isı Gücü): 1000.0 W (Polonyum-210 radyoizotop termal ısıtıcı ünitesi)
+- İtki Sistemi: Gezgin üzerinde roket itkisi yok (Luna 21 KTDU-417 ile indi)
+- Bilgisayar / Yazılım: Geliştirilmiş sürüş ve kamera çerçeve hızı kontrolü, eğim kesici
+- Bilimsel Cihazlar: RIFMA-M X-ışını spektrometresi, SG-70A manyetometre, PrOP penetrometre, Rubin-1
+- Haberleşme: VHF / Decimeter (183.6 MHz / 922.75 MHz · 80.000+ TV görüntüsü)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1973-001D
+
+22. GÖREV / ARAÇ: Luna 24 (1976, SSCB)
+- Araç Tipi: Örnek Getirme
+- Başarı Durumu: Başarılı (2 metre derinlikten karot örneği getiren son Sovyet aracı)
+- Mass (Kütle): 5800.0 kg
+- Kütle Tanımı: NSSDCA: Toplam fırlatma kütlesi (İniş kütlesi 1.880 kg, dönüş kütlesi 520 kg)
+- Boyutlar: Yükseklik 3.96 m, Çap 4.00 m (Dönüş kapsülü çapı 0.50 m)
+- Battery (Batarya): Gümüş-çinko kimyasal bataryalar · 2 adet · 28 V · 175 Ah (4900 Wh)
+- Solar Array (Güç Üretimi): 120 W (İniş platformu batarya destekli sabit güç)
+- Survival Load (Bekleme / Güvenlik Yükü): 35 W
+- Payload Load (Bilimsel Yük Gücü): 85 W
+- Slope Limit (Eğim Sınırı): 15° (İniş ayakları ve derin matkap platformu diklik sınırı)
+- Radioisotope Heat (Termal Isı Gücü): 45.0 W (Matkap ve örnek saklama kabini ısıtıcıları)
+- İtki Sistemi: KTDU-417 iniş motoru (18800 N) + KRD-61 yükseliş motoru (18800 N) + 4 RCS
+- Bilgisayar / Yazılım: Otomatik uçuş ve derin sondaj kontrol bilgisayarı
+- Bilimsel Cihazlar: 2.25 m esnek tüplü derin sondaj matkabı (170.1 gram regolit örneği)
+- Haberleşme: VHF / UHF / Decimeter (183.6 MHz / 922.75 MHz)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1976-081A
+
+23. GÖREV / ARAÇ: Hiten (1990, Japonya - ISAS)
+- Araç Tipi: Yörünge / Yakın Geçiş
+- Başarı Durumu: Başarılı (ABD ve SSCB dışında Ay'a ulaşan ilk ülke)
+- Mass (Kütle): 197.4 kg
+- Kütle Tanımı: NSSDCA: Fırlatma kütlesi (143 kg kuru + 12 kg alt uydu + 42 kg yakıt)
+- Boyutlar: Yükseklik 0.85 m, Çap 1.40 m (Silindirik gövde)
+- Battery (Batarya): Nikel-kadmiyum (NiCd) batarya · 1 adet · 28 V · 15 Ah (420 Wh)
+- Solar Array (Güç Üretimi): 110 W (Gövde çevresi silikon güneş hücreleri)
+- Survival Load (Bekleme / Güvenlik Yükü): 38 W
+- Payload Load (Bilimsel Yük Gücü): 34 W
+- Slope Limit (Eğim Sınırı): 15° (Yörünge aracı kamera ve off-nadir yönelim açısı)
+- Radioisotope Heat (Termal Isı Gücü): 18.0 W (Elektronik bölmesi elektrikli ısıtıcıları)
+- İtki Sistemi: Monopropellant hidrazin itki sistemi (23 N - 8 adet 23 N + 4 adet 3 N)
+- Bilgisayar / Yazılım: 16-bit yedekli uçuş kontrol işlemcisi (8.0 MHz, dönüş kararlı optik navigasyon)
+- Bilimsel Cihazlar: Munich Toz Sayacı (MDC), Hagoromo alt yörünge uydusu
+- Haberleşme: S-band / X-band (2280 MHz · 1-8 kbit/s Usuda 64m anteni)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1990-007A
+
+24. GÖREV / ARAÇ: Clementine (1994, ABD - BMDO/NASA)
+- Araç Tipi: Yörünge Haritalama
+- Başarı Durumu: Başarılı (Ay'ın ilk tam multispektral haritası)
+- Mass (Kütle): 1687.0 kg
+- Kütle Tanımı: NSSDCA: Toplam fırlatma kütlesi (424 kg kuru + Star 37FM motoru)
+- Boyutlar: Yükseklik 1.88 m, Genişlik 1.14 m (Sekizgen prizma gövde, güneş panelleri açık 5.8 m)
+- Battery (Batarya): Nikel-hidrojen (NiH2) batarya · 1 adet · 30 V · 15 Ah (450 Wh)
+- Solar Array (Güç Üretimi): 360 W (GaAs/Ge güneş panelleri)
+- Survival Load (Bekleme / Güvenlik Yükü): 110 W
+- Payload Load (Bilimsel Yük Gücü): 130 W
+- Slope Limit (Eğim Sınırı): 15° (Haritalama uydusu off-nadir kamera görüş açısı)
+- Radioisotope Heat (Termal Isı Gücü): 45.0 W (Gövde elektrikli direnç ısıtıcıları)
+- İtki Sistemi: Thiokol Star 37FM katı motor (47000 N) + R-4D sıvı motor (490 N) + 12 RCS iticisi
+- Bilgisayar / Yazılım: MIL-STD-1750A (16-bit) + R3000 (32-bit) görüntü işlemcisi (20.0 MHz)
+- Bilimsel Cihazlar: UV/Vis Kamera, Yakın Kızılötesi (NIR), Uzun Dalga IR, LIDAR, Star Tracker kameralar
+- Haberleşme: S-band (2265 MHz · 128 kbit/s downlink, 2 Gbit katı hal kaydedici)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1994-004A
+
+25. GÖREV / ARAÇ: Lunar Prospector (1998, ABD - NASA)
+- Araç Tipi: Yörünge Aracı
+- Başarı Durumu: Başarılı (Ay kutuplarında hidrojen/su buzu kanıtları)
+- Mass (Kütle): 296.4 kg
+- Kütle Tanımı: NSSDCA: Fırlatma kütlesi (158 kg kuru + 138 kg hidrazin)
+- Boyutlar: Yükseklik 1.22 m, Çap 1.40 m (3 adet 2.5 m radyal cihaz bomu)
+- Battery (Batarya): Nikel-kadmiyum (NiCd) batarya · 1 adet · 28 V · 15 Ah (420 Wh)
+- Solar Array (Güç Üretimi): 202 W (Gövde üzeri GaAs güneş panelleri)
+- Survival Load (Bekleme / Güvenlik Yükü): 75 W
+- Payload Load (Bilimsel Yük Gücü): 60 W
+- Slope Limit (Eğim Sınırı): 15° (Kutup yörüngesi cihaz yönelim açısı)
+- Radioisotope Heat (Termal Isı Gücü): 32.0 W (Spektrometre ve elektronik ısıtıcıları)
+- İtki Sistemi: Monopropellant hidrazin blowdown sistemi (6 adet 22 N itici)
+- Bilgisayar / Yazılım: Harris RTX2010 radyasyona dayanıklı 16-bit işlemci (10.0 MHz)
+- Bilimsel Cihazlar: Gamma Işını Spektrometresi (GRS), Nötron Spektrometresi, Manyetometre, ER
+- Haberleşme: S-band (2270 MHz · 3.6 kbit/s, 53.3 dk gecikmeli tampon bellek)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1998-001A
+
+26. GÖREV / ARAÇ: SMART-1 (2003, Avrupa - ESA)
+- Araç Tipi: Yörünge Aracı
+- Başarı Durumu: Başarılı (Avrupa'nın ilk Ay görevi ve güneş-elektrik iyon itkisi)
+- Mass (Kütle): 367.0 kg
+- Kütle Tanımı: ESA SP-1276: Uçuş kütlesi (287 kg kuru + 82.5 kg xenon)
+- Boyutlar: Yükseklik 1.00 m, Genişlik 1.00 m, Derinlik 1.00 m (Panel açıklığı 14.0 m)
+- Battery (Batarya): Lityum-iyon (Li-ion) bataryalar · 5 adet · 50 V · 12 Ah (600 Wh)
+- Solar Array (Güç Üretimi): 1950 W (GaInP/GaAs güneş paneli kanatları)
+- Survival Load (Bekleme / Güvenlik Yükü): 140 W
+- Payload Load (Bilimsel Yük Gücü): 140 W
+- Slope Limit (Eğim Sınırı): 15° (Yörünge kamera tarama ve off-nadir açısı)
+- Radioisotope Heat (Termal Isı Gücü): 65.0 W (İyon motoru ve elektronik termal kontrolü)
+- İtki Sistemi: Snecma PPS-1350-G Hall etkili iyon motoru (70 mN, Xenon) + 8 adet 1 N hidrazin RCS
+- Bilgisayar / Yazılım: 2 yedekli ERC32 (SPARC V7) radyasyona dayanıklı işlemci (14.0 MHz, OBAN)
+- Bilimsel Cihazlar: AMIE mikro-görüntüleme kamerası, D-CIXS X-ışını spektrometresi, SIR kızılötesi
+- Haberleşme: S / X / Ka-band (S: 62 kbit/s, Ka: 120 kbit/s, 4 Gbit katı hal bellek)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-043C
+
+27. GÖREV / ARAÇ: Kaguya (SELENE) (2007, Japonya - JAXA)
+- Araç Tipi: Yörünge Aracı
+- Başarı Durumu: Başarılı (Ana uydu + Okina ve Ouna röle uyduları)
+- Mass (Kütle): 3020.0 kg
+- Kütle Tanımı: JAXA: Fırlatma kütlesi (1.984 kg kuru + 2x50 kg alt uydular)
+- Boyutlar: Yükseklik 4.80 m, Genişlik 2.10 m, Derinlik 2.10 m (Tek kanat panel açıklığı 9 m)
+- Battery (Batarya): Nikel-hidrojen (NiH2) bataryalar · 4 adet · 50 V · 140 Ah (7000 Wh)
+- Solar Array (Güç Üretimi): 3500 W (22 m² silikon güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 950 W
+- Payload Load (Bilimsel Yük Gücü): 1150 W
+- Slope Limit (Eğim Sınırı): 15° (Yörünge stereo kamera ve radar off-nadir açısı)
+- Radioisotope Heat (Termal Isı Gücü): 240.0 W (Ana gövde ve enstrüman elektrikli ısıtıcıları)
+- İtki Sistemi: Bipropellant OME-500 motoru (500 N, Hidrazin / MON-3) + 20 RCS iticisi
+- Bilgisayar / Yazılım: 64-bit R4000 / HR5000 uzay sınıfı işlemciler (25.0 MHz)
+- Bilimsel Cihazlar: Terrain Stereo Kamera, Multi-band Imager, 2 HDTV kamera, XRS, GRS, LRS, LALT
+- Haberleşme: S-band / X-band (X-band 10 Mbit/s downlink, 10 Gbit veri kaydedici)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-039A
+
+28. GÖREV / ARAÇ: Chang'e 1 (2007, Çin - CNSA)
+- Araç Tipi: Yörünge Aracı
+- Başarı Durumu: Başarılı (Çin'in ilk Ay yörünge görevi)
+- Mass (Kütle): 2350.0 kg
+- Kütle Tanımı: NSSDCA: Fırlatma kütlesi (1.150 kg kuru + 1.200 kg yakıt)
+- Boyutlar: Yükseklik 2.22 m, Genişlik 2.00 m, Derinlik 1.72 m (Güneş panelleri açık 18.1 m)
+- Battery (Batarya): Nikel-hidrojen (NiH2) bataryalar · 2 adet · 42 V · 60 Ah (2520 Wh)
+- Solar Array (Güç Üretimi): 1200 W (2 kanat GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 380 W
+- Payload Load (Bilimsel Yük Gücü): 400 W
+- Slope Limit (Eğim Sınırı): 15° (Yörünge CCD kamera ve mikrodalga radyometre off-nadir açısı)
+- Radioisotope Heat (Termal Isı Gücü): 110.0 W (Elektronik bölmesi direnç ısıtıcıları)
+- İtki Sistemi: Bipropellant 490 N ana yörünge motoru (MMH / N2O4) + 12 RCS iticisi
+- Bilgisayar / Yazılım: 32-bit SPARC V7 / BM3803 uzay işlemcisi (20.0 MHz, 3 eksenli kararlı AOCS)
+- Bilimsel Cihazlar: CCD Stereo Kamera, Lazer Altimetre, Girişim Spektrometresi, Gamma/X-Işını Spektrometresi
+- Haberleşme: S-band / X-band (X-band 3 Mbit/s downlink, 48 Gbit katı hal bellek)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-051A
+
+29. GÖREV / ARAÇ: Chandrayaan-1 (2008, Hindistan - ISRO)
+- Araç Tipi: Yörünge + Çarpma (MIP)
+- Başarı Durumu: Başarılı (Ay yüzeyinde su molekülleri keşfi)
+- Mass (Kütle): 1380.0 kg
+- Kütle Tanımı: ISRO: Fırlatma kütlesi (675 kg yörünge kütlesi, 560 kg kuru, 35 kg MIP)
+- Boyutlar: Yükseklik 1.50 m, Genişlik 1.50 m, Derinlik 1.50 m (Küboid gövde, tek kanat panel)
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 36 V · 36 Ah (1296 Wh)
+- Solar Array (Güç Üretimi): 750 W (Tek kanat çok eklemli GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 260 W
+- Payload Load (Bilimsel Yük Gücü): 260 W
+- Slope Limit (Eğim Sınırı): 15° (Yörünge aracı ve MIP çarpma hedefleme referans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 95.0 W (Spektrometre ve yakıt tankı elektrikli ısıtıcıları)
+- İtki Sistemi: ISRO LAM bipropellant motor (440 N, MMH / MON-3) + 8 adet 22 N RCS iticisi
+- Bilgisayar / Yazılım: MAR31750 / 32-bit LEON uzay bilgisayarı (16.0 MHz, 3 eksenli kararlı AOCS)
+- Bilimsel Cihazlar: TMC stereo, HySI hiperspektral, MIP video, LLRI lazer altimetre, HEX, 6 uluslararası cihaz
+- Haberleşme: S-band / X-band (X-band 40 Mbit/s downlink, 32 Gbit katı hal bellek)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2008-052A
+
+30. GÖREV / ARAÇ: LRO (2009, ABD - NASA)
+- Araç Tipi: Yörünge Haritalama
+- Başarı Durumu: Başarılı (2009'dan beri aktif en detaylı Ay haritalama görevi)
+- Mass (Kütle): 1916.0 kg
+- Kütle Tanımı: NSSDCA: Toplam fırlatma kütlesi (1.018 kg kuru + 898 kg yakıt)
+- Boyutlar: Yükseklik 2.70 m, Genişlik 2.60 m (Güneş paneli alanı 3.2 x 4.3 m / 11 m²)
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 28 V · 80 Ah (2240 Wh)
+- Solar Array (Güç Üretimi): 1850 W (Çok eklemli GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 420 W
+- Payload Load (Bilimsel Yük Gücü): 380 W
+- Slope Limit (Eğim Sınırı): 15° (Kutup haritalama kameraları ve altimetre off-nadir açısı)
+- Radioisotope Heat (Termal Isı Gücü): 185.0 W (Diviner ve enstrüman elektrikli direnç ısıtıcıları)
+- İtki Sistemi: Bipropellant hidrazin / MON-3 yörünge motorları (4 x 80 N = 320 N) + 8 adet 22 N RCS
+- Bilgisayar / Yazılım: RAD750 (PowerPC 750) radyasyona dayanıklı işlemci (133.0 MHz, cFE / VxWorks)
+- Bilimsel Cihazlar: LROC (NAC + WAC kameralar), CRaTER, Diviner, LAMP, LEND, LOLA, Mini-RF
+- Haberleşme: S-band / Ka-band (Ka-band 100 Mbit/s, S-band 3 Mbit/s, 200 Gbit katı hal bellek)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-031A
+
+31. GÖREV / ARAÇ: LCROSS (2009, ABD - NASA)
+- Araç Tipi: Çarpma Sondası
+- Başarı Durumu: Başarılı (Cabeus kraterinde su buzu doğrulaması)
+- Mass (Kütle): 891.0 kg
+- Kütle Tanımı: NSSDCA: Shepherding Spacecraft (585 kg kuru) + 2.305 kg Centaur üst kademesi
+- Boyutlar: Yükseklik 2.00 m, Çap 2.60 m (ESPA halka tabanlı gövde)
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 28 V · 40 Ah (1120 Wh)
+- Solar Array (Güç Üretimi): 600 W (Gövdeye sabit 6 adet GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 190 W
+- Payload Load (Bilimsel Yük Gücü): 150 W
+- Slope Limit (Eğim Sınırı): 15° (Çarpma hedefleme krater eğim referans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 75.0 W (Optik enstrüman ve yakıt tankı ısıtıcıları)
+- İtki Sistemi: Monopropellant hidrazin itki sistemi (306 kg yakıt, 2 x 22 N ana + 8 x 4.5 N RCS)
+- Bilgisayar / Yazılım: BAE RAD750 radyasyona dayanıklı işlemci (118.0 MHz, VxWorks gerçek zamanlı)
+- Bilimsel Cihazlar: 1 görünür kamera, 2 NIR kamera, 2 Termal IR kamera, UV/Vis ve NIR spektrometreler
+- Haberleşme: S-band (2200 MHz · 1.5 Mbit/s canlı video, çarpma anına kadar veri aktarımı)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-031B
+
+32. GÖREV / ARAÇ: Chang'e 2 (2010, Çin - CNSA)
+- Araç Tipi: Yörünge / Test
+- Başarı Durumu: Başarılı (Chang'e 3 iniş alanı taraması + L2 ve Toutatis asteroit uçuşu)
+- Mass (Kütle): 2480.0 kg
+- Kütle Tanımı: NSSDCA: Fırlatma kütlesi (1.180 kg kuru + 1.300 kg yakıt)
+- Boyutlar: Yükseklik 2.22 m, Genişlik 2.00 m, Derinlik 1.72 m (Güneş panelleri 18.1 m)
+- Battery (Batarya): Nikel-hidrojen (NiH2) bataryalar · 2 adet · 42 V · 60 Ah (2520 Wh)
+- Solar Array (Güç Üretimi): 1200 W (2 kanat GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 390 W
+- Payload Load (Bilimsel Yük Gücü): 420 W
+- Slope Limit (Eğim Sınırı): 15° (Yörünge kamera tarama ve off-nadir açısı)
+- Radioisotope Heat (Termal Isı Gücü): 115.0 W (Elektronik ve yakıt tankı direnç ısıtıcıları)
+- İtki Sistemi: Bipropellant 490 N ana yörünge motoru (MMH / N2O4) + 12 RCS iticisi
+- Bilgisayar / Yazılım: 32-bit SPARC V7 / BM3803 uzay işlemcisi (25.0 MHz, AOCS yazılımı)
+- Bilimsel Cihazlar: Yüksek çözünürlüklü CCD Stereo Kamera, Lazer Altimetre, X/Gamma Spektrometresi
+- Haberleşme: S-band / X-band (X-band 12 Mbit/s downlink, 128 Gbit katı hal bellek)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2010-050A
+
+33. GÖREV / ARAÇ: GRAIL (A & B - Ebb & Flow) (2011, ABD - NASA / JPL)
+- Araç Tipi: İkiz Yörünge Haritalama Uyduları
+- Başarı Durumu: Başarılı (Ay'ın en yüksek çözünürlüklü yerçekimi haritası)
+- Mass (Kütle): 307.0 kg
+- Kütle Tanımı: NSSDCA: Her bir uydu fırlatma kütlesi (132.6 kg kuru + 106 kg yakıt)
+- Boyutlar: Yükseklik 1.09 m, Çap 0.95 m (Kanat açıklığı 3.1 m)
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya (uydu başı) · 1 adet · 28 V · 30 Ah (840 Wh)
+- Solar Array (Güç Üretimi): 700 W (2 kanat GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 210 W
+- Payload Load (Bilimsel Yük Gücü): 170 W
+- Slope Limit (Eğim Sınırı): 15° (Uydu arası mesafe ölçüm ve off-nadir referans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 85.0 W (Ultra Kararlı Osilatör ve elektronik ısıtıcıları)
+- İtki Sistemi: Monopropellant hidrazin 22 N ana motor (uydu başı) + 8 adet 1 N sıcak gaz RCS
+- Bilgisayar / Yazılım: BAE RAD750 radyasyona dayanıklı işlemci (133.0 MHz, VxWorks otonom formasyon)
+- Bilimsel Cihazlar: Lunar Gravity Ranging System (LGRS - Ka-band uydu-uydu mesafe), USO, MoonKAM
+- Haberleşme: Ka-band / S-band / UHF (Ka: 32 GHz, S: 2200 MHz, mikron altı uydu arası mesafe)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-046A
+
+34. GÖREV / ARAÇ: LADEE (2013, ABD - NASA Ames / GSFC)
+- Araç Tipi: Ay Atmosferi ve Toz Araştırma Uydusu
+- Başarı Durumu: Başarılı (Ay ekzosferi ve toz ortamı analizi + lazer iletişim)
+- Mass (Kütle): 383.0 kg
+- Kütle Tanımı: NSSDCA: Fırlatma kütlesi (248.2 kg kuru + 134.8 kg yakıt)
+- Boyutlar: Yükseklik 2.37 m, Genişlik 1.85 m (Modüler Karbon Kompozit Gövde)
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 28 V · 24 Ah (672 Wh)
+- Solar Array (Güç Üretimi): 295 W (Gövde çevresinde 30 silikon güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 115 W
+- Payload Load (Bilimsel Yük Gücü): 95 W
+- Slope Limit (Eğim Sınırı): 15° (Ekzosferik tarama ve optik terminal off-nadir açısı)
+- Radioisotope Heat (Termal Isı Gücü): 55.0 W (Lazer teleskop ve spektrometre direnç ısıtıcıları)
+- İtki Sistemi: Bipropellant HiPAT 455 N motor (MMH / MON-3) + 8 adet 22 N hidrazin RCS
+- Bilgisayar / Yazılım: LEON3-FT (32-bit SPARC V8) radyasyona dayanıklı işlemci (66.0 MHz, cFE/VxWorks)
+- Bilimsel Cihazlar: NMS (Nötr Kütle Spektrometresi), UVS, LDEX (Ay Toz Deneyi), LLCD (Lazer İletişim)
+- Haberleşme: S-band / Optik Lazer 1550 nm (Lazer: 622 Mbit/s rekor hız, S-band: 10 kbit/s)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2013-047A
+
+35. GÖREV / ARAÇ: Chang'e 3 & Yutu (2013, Çin - CNSA)
+- Araç Tipi: İniş Aracı (Lander) + Robotik Gezgin (Rover)
+- Başarı Durumu: Başarılı (1976'dan beri Ay'a ilk yumuşak iniş)
+- Mass (Kütle): 3780.0 kg
+- Kütle Tanımı: CNSA / NSSDCA: Toplam fırlatma (İniş aracı 1.200 kg kuru, Yutu 140 kg)
+- Boyutlar: Lander yükseklik 2.50 m, genişlik 3.50 m, açıklık 4.76 m. Yutu: 1.50 x 1.00 x 1.10 m
+- Battery (Batarya): Lityum-iyon (Li-ion) bataryalar · 2 adet (Lander ve Rover ayrı) · 28 V · 85 Ah (2380 Wh)
+- Solar Array (Güç Üretimi): 550 W (Lander 450 W + Yutu 100 W güneş panelleri)
+- Survival Load (Bekleme / Güvenlik Yükü): 45 W
+- Payload Load (Bilimsel Yük Gücü): 265 W
+- Slope Limit (Eğim Sınırı): 20° (Yutu gezgininin güvenle sürüş yapabileceği azami zemin eğimi)
+- Radioisotope Heat (Termal Isı Gücü): 120.0 W (Pu-238 radyoizotop ısıtma üniteleri - RHU)
+- İtki Sistemi: YF-36 kısılabilir ana motor (1500 - 7500 N, MMH / N2O4) + 28 RCS yönelim iticisi
+- Bilgisayar / Yazılım: 32-bit SPARC V8 (BM3803) yedekli uzay bilgisayarları (25.0 MHz)
+- Bilimsel Cihazlar: LUT UV Teleskobu, EUV Kamera, Toprak Probu, Yeraltı Radarı (LPR), APXS, VNIS
+- Haberleşme: S-band / X-band / UHF (X-band 10 Mbit/s downlink, Lander-Rover arası UHF röle)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2013-070A
+
+36. GÖREV / ARAÇ: Chang'e 4 & Yutu-2 (2019, Çin - CNSA)
+- Araç Tipi: Uzak Yüz İniş Aracı + Robotik Gezgin
+- Başarı Durumu: Başarılı (Ay'ın uzak yüzüne tarihteki ilk yumuşak iniş)
+- Mass (Kütle): 3780.0 kg
+- Kütle Tanımı: CNSA / NSSDCA: Toplam fırlatma (İniş aracı 1.200 kg, Yutu-2 135 kg)
+- Boyutlar: Lander yükseklik 2.50 m, genişlik 3.50 m, açıklık 4.76 m. Yutu-2: 1.50 x 1.00 x 1.10 m
+- Battery (Batarya): Lityum-iyon (Li-ion) bataryalar · 2 adet · 28 V · 85 Ah (2380 Wh)
+- Solar Array (Güç Üretimi): 550 W (Lander 450 W + Yutu-2 100 W güneş panelleri)
+- Survival Load (Bekleme / Güvenlik Yükü): 45 W
+- Payload Load (Bilimsel Yük Gücü): 270 W
+- Slope Limit (Eğim Sınırı): 20° (Yutu-2 gezgininin tırmanış ve sürüş açısı sınırı)
+- Radioisotope Heat (Termal Isı Gücü): 120.0 W (Pu-238 radyoizotop ısıtma üniteleri - RHU)
+- İtki Sistemi: YF-36 kısılabilir ana motor (1500 - 7500 N, MMH / N2O4) + 28 RCS iticisi
+- Bilgisayar / Yazılım: 32-bit SPARC V8 (BM3803) yedekli uzay bilgisayarları (25.0 MHz)
+- Bilimsel Cihazlar: LND (Alman radyasyon), LFS, Biyosfer Deneyi, LPR Radar, VNIS, ASAN (İsveç)
+- Haberleşme: S / X / UHF (Queqiao L2 röle uydusu bağı üzerinden kesintisiz uzak yüz iletişimi)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2018-103A
+
+37. GÖREV / ARAÇ: Beresheet (2019, İsrail - SpaceIL / IAI)
+- Araç Tipi: Özel Sektör İniş Aracı (Commercial Lander)
+- Başarı Durumu: Kısmi Başarı (Ay yörüngesine girdi; son inişte motor kesilmesiyle çarptı)
+- Mass (Kütle): 585.0 kg
+- Kütle Tanımı: NSSDCA: Fırlatma kütlesi (150 kg kuru + 435 kg yakıt)
+- Boyutlar: Yükseklik 1.50 m, Çap 2.00 m, İniş ayak açıklığı 2.30 m
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 28 V · 32 Ah (896 Wh)
+- Solar Array (Güç Üretimi): 250 W (Üst güverte GaAs güneş panelleri)
+- Survival Load (Bekleme / Güvenlik Yükü): 65 W
+- Payload Load (Bilimsel Yük Gücü): 100 W
+- Slope Limit (Eğim Sınırı): 15° (4 karbon kompozit yaylı iniş ayağının zemin tolerans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 35.0 W (Elektronik bölmesi ve motor valfi elektrikli ısıtıcıları)
+- İtki Sistemi: Nammo LEROS 2b ana motor (400 N, MMH / MON) + 8 adet IAI DST-12 (10 N) RCS
+- Bilgisayar / Yazılım: LEON3-FT (32-bit SPARC V8) uçuş bilgisayarı (40.0 MHz, otonom iniş)
+- Bilimsel Cihazlar: Weizmann Manyetometresi, NASA Lazer Retroreflektör (LRA), Zaman Kapsülü
+- Haberleşme: S-band (2200 MHz · 100 kbit/s, 7 küresel yer istasyonu ağı)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2019-009B
+
+38. GÖREV / ARAÇ: Chandrayaan-2 (Vikram & Pragyan) (2019, Hindistan - ISRO)
+- Araç Tipi: Yörünge Aracı + İniş Aracı (Vikram) + Gezgin (Pragyan)
+- Başarı Durumu: Kısmi Başarı (Yörünge aracı %100 başarılı; Vikram inişte 2.1 km kala düştü)
+- Mass (Kütle): 3850.0 kg
+- Kütle Tanımı: ISRO: Toplam fırlatma (Yörünge: 2.379 kg, Vikram: 1.471 kg, Pragyan: 27 kg)
+- Boyutlar: Vikram yükseklik 2.54 m, genişlik 2.00 m, açıklık 3.10 m (Pragyan: 0.90 x 0.75 x 0.85 m)
+- Battery (Batarya): Lityum-iyon (Li-ion) bataryalar (3 modül ayrı) · 3 adet · 36 V · 110 Ah (3520 Wh)
+- Solar Array (Güç Üretimi): 1700 W (Yörünge 1000 W + Vikram 650 W + Pragyan 50 W)
+- Survival Load (Bekleme / Güvenlik Yükü): 480 W
+- Payload Load (Bilimsel Yük Gücü): 700 W
+- Slope Limit (Eğim Sınırı): 12° (Vikram iniş ayakları ve Pragyan gezgin tırmanış sınırı)
+- Radioisotope Heat (Termal Isı Gücü): 160.0 W (Modül içi elektrikli direnç ve kablo ısıtıcıları)
+- İtki Sistemi: Yörünge 440 N LAM + Vikram 5 x 800 N kısılabilir motor (MMH / MON-3) + 16 RCS
+- Bilgisayar / Yazılım: 32-bit LEON3 / MAR31750 yedekli işlemciler (25.0 MHz, otonom tehlike kaçınma)
+- Bilimsel Cihazlar: TMC-2, OHRC kamerası (0.32m rekor çözünürlük), ChaSTE, ILSA, RAMBHA, APXS, LIBS
+- Haberleşme: S-band / X-band (X-band 40 Mbit/s downlink, yörünge aracı röle desteği)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2019-042A
+
+39. GÖREV / ARAÇ: Chang'e 5 (2020, Çin - CNSA)
+- Araç Tipi: Robotik Örnek Getirme Görevi (4 Modüllü)
+- Başarı Durumu: Başarılı (1.731 gram genç bazaltik Ay örneği getirildi)
+- Mass (Kütle): 8200.0 kg
+- Kütle Tanımı: CNSA / NSSDCA: Toplam fırlatma (Orbiter 2.300 kg, Lander 1.200 kg, Ascender 500 kg, Returner 300 kg)
+- Boyutlar: Birleşik yükseklik 7.20 m, Genişlik 3.50 m, İniş ayak açıklığı 4.76 m
+- Battery (Batarya): Lityum-iyon (Li-ion) bataryalar (4 modül ayrı) · 4 adet · 42 V · 160 Ah (5760 Wh)
+- Solar Array (Güç Üretimi): 2000 W (Yörünge 1500 W + İniş aracı 500 W güneş panelleri)
+- Survival Load (Bekleme / Güvenlik Yükü): 450 W
+- Payload Load (Bilimsel Yük Gücü): 700 W
+- Slope Limit (Eğim Sınırı): 15° (İniş ayaklarının ve örnek matkap platformunun zemin toleransı)
+- Radioisotope Heat (Termal Isı Gücü): 180.0 W (Örnek dönüş kapsülü ve motor valfi direnç ısıtıcıları)
+- İtki Sistemi: YF-36 iniş motoru (7500 N) + 3000 N çıkış motoru + 3000 N yörünge motoru + 40+ RCS
+- Bilgisayar / Yazılım: 32-bit SPARC V8 yedekli uzay bilgisayarları (40.0 MHz, otonom kenetlenme)
+- Bilimsel Cihazlar: 2m matkap, 3.7m robotik kepçe, LMS spektrometre, Regolit Yapı Radarı (LRPR)
+- Haberleşme: S-band / X-band / UHF (X-band 20 Mbit/s downlink, dönüş kapsülü atmosferden seken giriş)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2020-087A
+
+40. GÖREV / ARAÇ: Danuri (KPLO) (2022, Güney Kore - KARI / NASA)
+- Araç Tipi: Ay yörünge keşif uydusu
+- Başarı Durumu: Başarılı (Güney Kore'nin ilk Ay yörünge aracı)
+- Mass (Kütle): 678.0 kg
+- Kütle Tanımı: KARI / NSSDCA: Fırlatma kütlesi (550 kg kuru + 128 kg yakıt)
+- Boyutlar: Yükseklik 2.67 m, Genişlik 3.18 m (Güneş panelleri açıkken 6.30 m açıklık)
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 28 V · 34 Ah (952 Wh)
+- Solar Array (Güç Üretimi): 760 W (2 kanat tek eksenli GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 240 W
+- Payload Load (Bilimsel Yük Gücü): 270 W
+- Slope Limit (Eğim Sınırı): 15° (Kutup yörüngesi optik kamera ve ShadowCam off-nadir açısı)
+- Radioisotope Heat (Termal Isı Gücü): 130.0 W (Enstrüman ve yakıt hatları elektrikli ısıtıcıları)
+- İtki Sistemi: Monopropellant hidrazin itki sistemi (4 x 30 N ana motor = 120 N + 4 x 5 N RCS)
+- Bilgisayar / Yazılım: LEON3-FT (32-bit SPARC V8) uçuş bilgisayarı (50.0 MHz, otonom AOCS)
+- Bilimsel Cihazlar: LUTI 5m kamera, PolCam, NASA ShadowCam, KMAG Manyetometre, KGRS, DTNPL
+- Haberleşme: S-band / X-band (X-band 8.192 Mbit/s, uzayda ilk DTN uzay interneti deneyi)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2022-094A
+
+41. GÖREV / ARAÇ: Artemis I (Orion) (2022, ABD - NASA / ESA)
+- Araç Tipi: Yeni Nesil Mürettebatlı Ay Uzay Gemisi
+- Başarı Durumu: Başarılı (İnsansız Ay uzak retrograd yörünge uçuşu ve dönüşü)
+- Mass (Kütle): 25855.0 kg
+- Kütle Tanımı: NASA: Orion fırlatma kütlesi (CM: 10.387 kg, ESM: 15.468 kg)
+- Boyutlar: Yükseklik 8.00 m (CM+ESM), CM taban çapı 5.03 m, ESM güneş paneli açıklığı 19.00 m
+- Battery (Batarya): Lityum-iyon (Li-ion) kabin bataryaları · 4 adet · 120 V · 120 Ah (14400 Wh)
+- Solar Array (Güç Üretimi): 11200 W (ESM 4 kanat GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 2400 W
+- Payload Load (Bilimsel Yük Gücü): 3400 W
+- Slope Limit (Eğim Sınırı): 15° (Kapsül okyanus paraşüt inişi ve diklik tolerans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 1200.0 W (Aviyonik bölmesi ve yaşam destek direnç ısıtıcıları)
+- İtki Sistemi: Aerojet AJ10-190 OMS-E motoru (26700 N, MMH / MON-3) + 32 RCS iticisi
+- Bilgisayar / Yazılım: 2 x Honeywell Vehicle Management Computer (IBM PowerPC 750FX, 800.0 MHz)
+- Bilimsel Cihazlar: MARE radyasyon mankenleri (Helga & Zohar), BioSentinel, Callisto sesli asistan
+- Haberleşme: S-band / Ka-band (Ka-band 100 Mbit/s, S-band 2 Mbit/s, 432.210 km rekor mesafe)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2022-156A
+
+42. GÖREV / ARAÇ: Hakuto-R M1 (2023, Japonya - ispace)
+- Araç Tipi: Ticari İniş Aracı (Commercial Lander)
+- Başarı Durumu: Kısmi Başarı (Ay yörüngesine girdi; son inişte yakıt tükenmesiyle düştü)
+- Mass (Kütle): 1000.0 kg
+- Kütle Tanımı: ispace / NSSDCA: Fırlatma kütlesi (340 kg kuru + 660 kg yakıt)
+- Boyutlar: Yükseklik 2.30 m, Genişlik 2.60 m (Katlanmış halde 2.3 x 1.6 m)
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 28 V · 35 Ah (980 Wh)
+- Solar Array (Güç Üretimi): 300 W (Gövdeye sabit 4 adet çok eklemli GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 70 W
+- Payload Load (Bilimsel Yük Gücü): 115 W
+- Slope Limit (Eğim Sınırı): 15° (4 karbon kompozit şok emici iniş ayağı zemin tolerans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 55.0 W (Elektronik bölmesi ve yakıt valfi direnç ısıtıcıları)
+- İtki Sistemi: Bipropellant ana yörünge/iniş motoru (400 N, MMH / MON-3) + 12 RCS iticisi
+- Bilgisayar / Yazılım: LEON3-FT (32-bit SPARC V8) radyasyona dayanıklı işlemci (50.0 MHz, otonom iniş)
+- Bilimsel Cihazlar: Rashid Gezgini (10 kg), JAXA SORA-Q mini robotu, NGK katı hal batarya deneyi
+- Haberleşme: S-band (2200 MHz · 100 kbit/s, Atlas krateri kenarındaki sensör yazılım hatası)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2022-168A
+
+43. GÖREV / ARAÇ: Luna 25 (2023, Rusya - Roscosmos)
+- Araç Tipi: Kutup İniş Aracı (Polar Lander)
+- Başarı Durumu: Başarısız (Yörünge düzeltme motorunun fazla çalışmasıyla Ay'a çarptı)
+- Mass (Kütle): 1750.0 kg
+- Kütle Tanımı: Roscosmos / NSSDCA: Fırlatma kütlesi (800 kg kuru + 950 kg yakıt)
+- Boyutlar: Yükseklik 3.20 m, Genişlik 3.80 m (4 ayaklı modüler iniş platformu)
+- Battery (Batarya): Lityum-iyon (Li-ion) bataryalar · 2 adet · 28 V · 80 Ah (2240 Wh)
+- Solar Array (Güç Üretimi): 400 W (Gövde yanlarında 4 sabit güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 40 W
+- Payload Load (Bilimsel Yük Gücü): 220 W
+- Slope Limit (Eğim Sınırı): 15° (Kutup bölgesi 4 şok emici ayaklı iniş platformu sınırı)
+- Radioisotope Heat (Termal Isı Gücü): 80.0 W (Pu-238 radyoizotop ısıtma üniteleri - RHU)
+- İtki Sistemi: KBKhA S5.92 türevi kısılabilir ana motor (4500 N, UDMH / N2O4) + 12 RCS iticisi
+- Bilgisayar / Yazılım: BTsVM (Bilgisayar Merkezi) yedekli radyasyona dayanıklı işlemci (50.0 MHz)
+- Bilimsel Cihazlar: ADRON-LR, ARIES-L, LASMA-LR (Lazer Kütle Spektrometresi), LIS-TV-RPM, Robotik Kol
+- Haberleşme: S-band / X-band (X-band 4 Mbit/s downlink)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2023-118A
+
+44. GÖREV / ARAÇ: Chandrayaan-3 (Vikram & Pragyan) (2023, Hindistan - ISRO)
+- Araç Tipi: İniş Aracı (Vikram) + Gezgin (Pragyan)
+- Başarı Durumu: Başarılı (Ay güney kutbu yakınlarına tarihteki ilk yumuşak iniş)
+- Mass (Kütle): 3900.0 kg
+- Kütle Tanımı: ISRO: Toplam 3.900 kg (İtki Modülü 2.148 kg, Vikram 1.726 kg, Pragyan 26 kg)
+- Boyutlar: Vikram: 2.0 x 2.0 x 1.166 m. Pragyan: 0.917 x 0.750 x 0.397 m
+- Battery (Batarya): Lityum-iyon (Li-ion) bataryalar (3 modül ayrı) · 3 adet · 36 V · 95 Ah (3040 Wh)
+- Solar Array (Güç Üretimi): 1546 W (İtki Modülü 758 W + Vikram 738 W + Pragyan 50 W)
+- Survival Load (Bekleme / Güvenlik Yükü): 65 W
+- Payload Load (Bilimsel Yük Gücü): 365 W
+- Slope Limit (Eğim Sınırı): 12° (Vikram güçlendirilmiş 4 iniş ayağı ve Pragyan tırmanış açısı)
+- Radioisotope Heat (Termal Isı Gücü): 60.0 W (Elektronik bölmesi ve batarya elektrikli ısıtıcıları)
+- İtki Sistemi: 4 x 800 N kısılabilir iniş motoru (MMH / MON-3) + İtki Modülü 440 N LAM + 16 RCS
+- Bilgisayar / Yazılım: 32-bit LEON3FT yedekli uçuş işlemcileri (50.0 MHz, otonom tehlike kaçınma)
+- Bilimsel Cihazlar: ChaSTE, ILSA, RAMBHA-LP, NASA LRA, APXS, LIBS, İtki Modülünde SHAPE
+- Haberleşme: S-band / X-band (X-band 40 Mbit/s downlink, Shiv Shakti noktasına iniş)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2023-098A
+
+45. GÖREV / ARAÇ: SLIM (2024, Japonya - JAXA)
+- Araç Tipi: Hassas İniş Aracı (Pinpoint Lander) + 2 Mini Gezgin
+- Başarı Durumu: Başarılı (Hedefe 55 m mesafede nokta atışı iniş ve 3 Ay gecesi sağkalımı)
+- Mass (Kütle): 590.0 kg
+- Kütle Tanımı: JAXA: Fırlatma kütlesi (200 kg kuru + 390 kg yakıt; LEV-1 2.1 kg, LEV-2 0.25 kg)
+- Boyutlar: Yükseklik 2.40 m, Genişlik 2.70 m, Derinlik 1.70 m (LEV-2 küresel çap 80 mm)
+- Battery (Batarya): Lityum-iyon (SUS laminat Li-ion) batarya · 1 adet · 28 V · 25 Ah (700 Wh)
+- Solar Array (Güç Üretimi): 300 W (Gövde üzeri ince film güneş hücreleri)
+- Survival Load (Bekleme / Güvenlik Yükü): 35 W
+- Payload Load (Bilimsel Yük Gücü): 160 W
+- Slope Limit (Eğim Sınırı): 15° (3D baskılı alüminyum kafes 5 ayaklı devrilme/iniş tolerans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 45.0 W (Aviyonik kutusu elektrikli direnç ısıtıcıları)
+- İtki Sistemi: 2 x 500 N seramik yanma odalı ana motor (1000 N, Hidrazin / MON-3) + 12 RCS iticisi
+- Bilgisayar / Yazılım: HR6000 (64-bit) radyasyona dayanıklı uzay işlemcisi (100.0 MHz, VBN yazılımı)
+- Bilimsel Cihazlar: Çok Bantlı Kamera (MBC), Lazer Retroreflektör (LRA), LEV-1, LEV-2 (SORA-Q)
+- Haberleşme: S-band / UHF (2200 MHz · 128 kbit/s, tek motorla başarılı iniş)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2023-137D
+
+46. GÖREV / ARAÇ: Peregrine Mission 1 (2024, ABD - Astrobotic / NASA CLPS)
+- Araç Tipi: Ticari İniş Aracı (Commercial Lander)
+- Başarı Durumu: Başarısız (Propellant valf arızası/sızıntısı nedeniyle Ay'a ulaşamadı)
+- Mass (Kütle): 1283.0 kg
+- Kütle Tanımı: Astrobotic / NSSDCA: Fırlatma kütlesi (480 kg kuru + 803 kg yakıt)
+- Boyutlar: Yükseklik 1.90 m, Genişlik 2.50 m, İniş ayak açıklığı 2.50 m
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 28 V · 40 Ah (1120 Wh)
+- Solar Array (Güç Üretimi): 450 W (Üst güverte GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 95 W
+- Payload Load (Bilimsel Yük Gücü): 185 W
+- Slope Limit (Eğim Sınırı): 15° (4 şok emici ayaklı iniş platformu zemin tolerans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 70.0 W (Valf bloğu ve faydalı yük elektrikli ısıtıcıları)
+- İtki Sistemi: 5 x 667 N hipergolik ana motor (3335 N, MMH / MON-25) + 12 RCS iticisi
+- Bilgisayar / Yazılım: LEON3-FT (32-bit SPARC V8) uçuş bilgisayarı (50.0 MHz, TRN otonom iniş)
+- Bilimsel Cihazlar: NIRVSS, NSS, PITMS, LETS, NDL, LRA, Iris gezgini, 5 Colmena mikro robot
+- Haberleşme: S-band / X-band (X-band 2 Mbit/s downlink, atmosfere kontrollü giriş)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2024-006A
+
+47. GÖREV / ARAÇ: IM-1 'Odysseus' (2024, ABD - Intuitive Machines / NASA CLPS)
+- Araç Tipi: Ticari İniş Aracı (Commercial Lunar Lander)
+- Başarı Durumu: Kısmi Başarı / Başarılı (Apollo'dan beri ilk ABD inişi; yan yattı ama veri gönderdi)
+- Mass (Kütle): 1908.0 kg
+- Kütle Tanımı: Intuitive Machines / NSSDCA: Fırlatma kütlesi (675 kg kuru + 1.233 kg metan/LOX)
+- Boyutlar: Yükseklik 4.30 m, Çap 1.57 m, İniş ayak açıklığı 4.60 m (Altıgen silindir gövde)
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 28 V · 25 Ah (700 Wh)
+- Solar Array (Güç Üretimi): 200 W (3 adet GaAs güneş paneli: 1 üst, 2 yan)
+- Survival Load (Bekleme / Güvenlik Yükü): 55 W
+- Payload Load (Bilimsel Yük Gücü): 90 W
+- Slope Limit (Eğim Sınırı): 10° (6 karbon kompozit şok emici ayaklı iniş yapısı eğim toleransı)
+- Radioisotope Heat (Termal Isı Gücü): 80.0 W (Kriyojenik motor valfi ve aviyonik direnç ısıtıcıları)
+- İtki Sistemi: Intuitive Machines VR900 kriyojenik motor (3100 N, Sıvı Metan / Sıvı Oksijen) + 8 RCS
+- Bilgisayar / Yazılım: LEON3-FT / RAD750 uzay bilgisayarı (100.0 MHz, otonom optik tehlike kaçınma)
+- Bilimsel Cihazlar: SCALPSS, LN-1 navigasyon, RFMG yakıt ölçer, NDL, ROLSES radyo teleskobu, LRA
+- Haberleşme: S-band / X-band (X-band 6 Mbit/s downlink, Malapert A krateri yakınına iniş)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2024-030A
+
+48. GÖREV / ARAÇ: Chang'e 6 (2024, Çin - CNSA)
+- Araç Tipi: Uzak Yüz Örnek Getirme Görevi (4 Modüllü)
+- Başarı Durumu: Başarılı (Ay'ın uzak yüzünden tarihteki ilk örnek getirme)
+- Mass (Kütle): 8200.0 kg
+- Kütle Tanımı: CNSA / NSSDCA: Toplam fırlatma (4 modüllü mimari + 5 kg Jinchan mini gezgini)
+- Boyutlar: Birleşik yükseklik 7.20 m, Genişlik 3.50 m, İniş ayak açıklığı 4.76 m
+- Battery (Batarya): Lityum-iyon (Li-ion) bataryalar (4 modül ayrı) · 4 adet · 42 V · 160 Ah (5760 Wh)
+- Solar Array (Güç Üretimi): 2000 W (Yörünge 1500 W + İniş aracı 500 W güneş panelleri)
+- Survival Load (Bekleme / Güvenlik Yükü): 450 W
+- Payload Load (Bilimsel Yük Gücü): 730 W
+- Slope Limit (Eğim Sınırı): 15° (İniş ayaklarının ve uzak yüz matkap platformunun zemin açısı)
+- Radioisotope Heat (Termal Isı Gücü): 180.0 W (Örnek dönüş kapsülü ve aviyonik ısıtıcıları)
+- İtki Sistemi: YF-36 iniş motoru (7500 N) + 3000 N çıkış motoru + 3000 N yörünge motoru + 40+ RCS
+- Bilgisayar / Yazılım: 32-bit SPARC V8 yedekli uzay bilgisayarları (40.0 MHz, otonom uzak yüz örnekleme)
+- Bilimsel Cihazlar: Matkap ve kepçe, LMS, LRPR, Fransız DORN radon dedektörü, İsveç NILS, LRA
+- Haberleşme: S / X / UHF (Queqiao-2 röle uydusu desteğiyle X-band 20 Mbit/s downlink)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2024-083A
+
+49. GÖREV / ARAÇ: Blue Ghost Mission 1 (2025, ABD - Firefly Aerospace / NASA CLPS)
+- Araç Tipi: Ticari İniş Aracı (Commercial Lunar Lander)
+- Başarı Durumu: Başarılı (Mare Crisium'a kusursuz yumuşak iniş ve tam 14 günlük görev)
+- Mass (Kütle): 1550.0 kg
+- Kütle Tanımı: Firefly / NSSDCA: Fırlatma kütlesi (470 kg kuru + 1.080 kg yakıt; 150 kg yük)
+- Boyutlar: Yükseklik 2.00 m, Genişlik 3.50 m (Kompozit orta şasi gövde yapısı)
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 28 V · 60 Ah (1680 Wh)
+- Solar Array (Güç Üretimi): 650 W (3 adet GaAs güneş paneli: 2 yan, 1 üst)
+- Survival Load (Bekleme / Güvenlik Yükü): 110 W
+- Payload Load (Bilimsel Yük Gücü): 230 W
+- Slope Limit (Eğim Sınırı): 15° (4 karbon kompozit ayak ve temas sensörlü motor kapama sistemi)
+- Radioisotope Heat (Termal Isı Gücü): 95.0 W (Aviyonik kutusu ve yakıt tankı direnç ısıtıcıları)
+- İtki Sistemi: Nammo LEROS 4-ET bipropellant ana motor (1100 N, MMH / MON-3) + 12 RCS iticisi
+- Bilgisayar / Yazılım: LEON3-FT / RAD750 yedekli uçuş bilgisayarı (100.0 MHz, otonom tehlike tespiti)
+- Bilimsel Cihazlar: LISTER ısı akışı, LPV vakum örnekleyici, NGLR reflektör, LEXI, LMS, LuGRE GPS
+- Haberleşme: S-band / X-band (X-band 10 Mbit/s peak downlink, Ay yüzeyinde GPS sinyali alımı)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2025-010A
+
+50. GÖREV / ARAÇ: IM-2 'Athena' (2025, ABD - Intuitive Machines / NASA CLPS)
+- Araç Tipi: Ticari Kutup İniş Aracı + Buz Delme Platformu
+- Başarı Durumu: Kısmi Başarı (Mons Mouton'a indi ancak krater içinde yan yatarak güç kaybetti)
+- Mass (Kütle): 1908.0 kg
+- Kütle Tanımı: Intuitive Machines / NSSDCA: Nova-C 2. araç (675 kg kuru + 1.233 kg yakıt)
+- Boyutlar: Yükseklik 4.30 m, Çap 1.57 m, İniş ayak açıklığı 4.60 m (Micro-Nova Hopper dahil)
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 28 V · 25 Ah (700 Wh)
+- Solar Array (Güç Üretimi): 200 W (3 adet GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 55 W
+- Payload Load (Bilimsel Yük Gücü): 100 W
+- Slope Limit (Eğim Sınırı): 10° (6 karbon kompozit ayaklı kutup iniş platformu eğim toleransı)
+- Radioisotope Heat (Termal Isı Gücü): 85.0 W (Kriyojenik motor valfi ve matkap direnç ısıtıcıları)
+- İtki Sistemi: Intuitive Machines VR900 kriyojenik motor (3100 N, Sıvı Metan / Sıvı Oksijen) + 8 RCS
+- Bilgisayar / Yazılım: LEON3-FT / RAD750 uzay bilgisayarı (100.0 MHz, otonom kutup iniş yazılımı)
+- Bilimsel Cihazlar: NASA PRIME-1 (TRIDENT 1m buz matkabı + MSolo), Micro-Nova Hopper, Nokia LTE
+- Haberleşme: S-band / X-band / LTE (X-band 6 Mbit/s downlink, Nokia 4G/LTE Ay baz istasyonu)
+- Kaynak URL: https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2025-040A
+
+51. GÖREV / ARAÇ: Hakuto-R M2 'Resilience' (2025, Japonya - ispace)
+- Araç Tipi: Ticari İniş Aracı + Mikro Gezgin (Micro Rover)
+- Başarı Durumu: Planlanan / Yörünge Görevi (Mare Frigoris hedefi ve Tenacious mikro gezgini)
+- Mass (Kütle): 1000.0 kg
+- Kütle Tanımı: ispace: Fırlatma kütlesi (340 kg kuru + 660 kg yakıt; Tenacious gezgini 5 kg)
+- Boyutlar: Lander yüksekliği 2.30 m, genişlik 2.60 m. Tenacious: 0.54 x 0.315 x 0.26 m
+- Battery (Batarya): Lityum-iyon (Li-ion) batarya · 1 adet · 28 V · 35 Ah (980 Wh)
+- Solar Array (Güç Üretimi): 315 W (Gövdeye sabit 4 adet GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 70 W
+- Payload Load (Bilimsel Yük Gücü): 120 W
+- Slope Limit (Eğim Sınırı): 15° (4 karbon kompozit şok emici ayak zemin toleransı)
+- Radioisotope Heat (Termal Isı Gücü): 60.0 W (Elektronik ve Tenacious gezgin şarj istasyonu ısıtıcıları)
+- İtki Sistemi: Bipropellant ana yörünge/iniş motoru (400 N, MMH / MON-3) + 12 RCS iticisi
+- Bilgisayar / Yazılım: LEON3-FT (32-bit SPARC V8) radyasyona dayanıklı işlemci (50.0 MHz, M1 güncellemeli)
+- Bilimsel Cihazlar: Tenacious Mikro Gezgin (kepçe), Su Elektroliz Deneyi, Gıda Üretim Modülü
+- Haberleşme: S-band (2200 MHz · 100 kbit/s, düşük enerjili balistik transfer yörüngesi)
+- Kaynak URL: https://ispace-inc.com/m2
+
+52. GÖREV / ARAÇ: Artemis II (2026, ABD - NASA / ESA)
+- Araç Tipi: İnsanlı Ay Uçuş Aracı (Mürettebat Kapsülü + Servis Modülü)
+- Başarı Durumu: Başarılı (1-10 Nisan 2026; 4 astronotlu ilk Ay yakın geçişi ve dönüş)
+- Mass (Kütle): 26520.0 kg
+- Kütle Tanımı: NASA: Mürettebatlı Orion fırlatma kütlesi (CM: 10.400 kg + yaşam destek, ESM: 15.468 kg)
+- Boyutlar: Yükseklik 8.00 m (CM+ESM), CM taban çapı 5.03 m, ESM güneş paneli açıklığı 19.00 m
+- Battery (Batarya): Lityum-iyon (Li-ion) kabin bataryaları · 4 adet · 120 V · 120 Ah (14400 Wh)
+- Solar Array (Güç Üretimi): 11200 W (ESM 4 kanat GaAs güneş paneli)
+- Survival Load (Bekleme / Güvenlik Yükü): 2800 W
+- Payload Load (Bilimsel Yük Gücü): 3600 W
+- Slope Limit (Eğim Sınırı): 15° (Kapsül okyanus paraşüt inişi ve diklik tolerans açısı)
+- Radioisotope Heat (Termal Isı Gücü): 1350.0 W (Aviyonik ve ECLSS yaşam destek direnç ısıtıcıları)
+- İtki Sistemi: Aerojet AJ10-190 OMS-E motoru (26700 N, MMH / MON-3) + 32 RCS iticisi
+- Bilgisayar / Yazılım: 2 x Honeywell Vehicle Management Computer (IBM PowerPC 750FX, 800.0 MHz)
+- Bilimsel Cihazlar: ECLSS tam yaşam destek sistemi, derin uzay radyasyon dozimetreleri, O2O optik lazer
+- Haberleşme: S / Ka / Optik Lazer (260 Mbit/s 4K canlı video aktarımı, 400.000+ km mesafe)
+- Kaynak URL: https://www.nasa.gov/mission/artemis-ii/

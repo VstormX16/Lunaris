@@ -1,0 +1,1250 @@
+[
+ {
+  "id": "luna-9",
+  "name": "Luna 9",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 1820.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"65 Ah (1820 Wh)\""
+  },
+  "solar_w": {
+   "value": 0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"22 W (Batarya deşarj destekli sabit güç çıkışı)\". That figure is not power from solar panels on the lander (no panels, a battery-equivalent output, or the orbiting module's fuel cells), so the lander's own solar power stays 0."
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"18.0 W (Kapsül içi elektrikli direnç ısıtıcıları)\" (electric heaters draw on the battery; they are not a heat source of their own)"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (Taç yaprak açılımı ve dengeleme sınır açısı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (not checked against an agency source)"
+  },
+  "survival_power_w": {
+   "value": 5.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"5 W\""
+  },
+  "payload_power_w": {
+   "value": 17.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"17 W\""
+  }
+ },
+ {
+  "id": "surveyor-1",
+  "name": "Surveyor 1",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 3900.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"162 Ah (3900 Wh)\""
+  },
+  "solar_w": {
+   "value": 85,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-045A",
+   "note": "up to 85 W from a 0.855 m2 array"
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"30.0 W (Kontrol kutusu elektrikli direnç ısıtıcıları)\" (electric heaters draw on the battery; they are not a heat source of their own)"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (İniş ayaklarının tolerans gösterdiği azami zemin eğimi)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-045A",
+   "note": "Deep Space Network"
+  },
+  "survival_power_w": {
+   "value": 12.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"12 W\""
+  },
+  "payload_power_w": {
+   "value": 43.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"43 W\""
+  }
+ },
+ {
+  "id": "apollo-11",
+  "name": "Apollo 11 (LM Eagle)",
+  "kind": "crewed_lander",
+  "battery_wh": {
+   "value": 44800,
+   "status": "verified",
+   "source": "https://ntrs.nasa.gov/api/citations/20090016295/downloads/20090016295.pdf",
+   "note": "4 descent batteries x 400 Ah x 28 V. NASA documents give 400-415 Ah and 28-29 V per descent battery; 400 Ah x 28 V used. Ascent batteries (2 x 296 Ah) are reserved for lift-off and not counted. | The dataset lists \"2312 Ah (64736 Wh)\", which counts batteries that do not stay on the surface (the orbiting module, or the ascent stage); the verified figure is kept."
+  },
+  "solar_w": {
+   "value": 0,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "LM power came from silver-zinc batteries only | The dataset says \"4300 W (CSM 3 yakıt hücresi [4260 W] + EASEP üzerinde 40 W güneş paneli)\"; the verified figure is kept."
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "The dataset says \"30.0 W (2 adet 15 W Pu-238 radyoizotop ısıtma ünitesi - RHU)\"; the verified value is kept (those units were on the experiments left on the surface, not in the lander)."
+  },
+  "max_slope_deg": {
+   "value": 12,
+   "status": "verified",
+   "source": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/LM_Landing%20Gear1973010151.pdf",
+   "note": "NASA landing-gear analysis: unstable-landing probability 2 in 1000 on slopes <= 12 deg (analysis value, not a quoted requirement)"
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "S-band direct to Earth"
+  },
+  "survival_power_w": {
+   "value": 1550.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1550 W\""
+  },
+  "payload_power_w": {
+   "value": 1350.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1350 W\""
+  }
+ },
+ {
+  "id": "apollo-12",
+  "name": "Apollo 12 (LM Intrepid)",
+  "kind": "crewed_lander",
+  "battery_wh": {
+   "value": 44800,
+   "status": "verified",
+   "source": "https://ntrs.nasa.gov/api/citations/20090016295/downloads/20090016295.pdf",
+   "note": "4 descent batteries x 400 Ah x 28 V. NASA documents give 400-415 Ah and 28-29 V per descent battery; 400 Ah x 28 V used. Ascent batteries (2 x 296 Ah) are reserved for lift-off and not counted. | The dataset lists \"2312 Ah (64736 Wh) + ALSEP SNAP-27 RTG\", which counts batteries that do not stay on the surface (the orbiting module, or the ascent stage); the verified figure is kept."
+  },
+  "solar_w": {
+   "value": 0,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "LM power came from silver-zinc batteries only | The dataset says \"4260 W (CSM yakıt hücreleri sürekli üretim)\"; the verified figure is kept."
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "The dataset says \"1510.0 W (SNAP-27 RTG [1480 Wth] + 2 adet 15 W Pu-238 RHU)\"; the verified value is kept (those units were on the experiments left on the surface, not in the lander)."
+  },
+  "max_slope_deg": {
+   "value": 12,
+   "status": "verified",
+   "source": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/LM_Landing%20Gear1973010151.pdf",
+   "note": "NASA landing-gear analysis: unstable-landing probability 2 in 1000 on slopes <= 12 deg (analysis value, not a quoted requirement)"
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "S-band direct to Earth"
+  },
+  "survival_power_w": {
+   "value": 1600.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1600 W\""
+  },
+  "payload_power_w": {
+   "value": 1350.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1350 W\""
+  }
+ },
+ {
+  "id": "apollo-14",
+  "name": "Apollo 14 (LM Antares)",
+  "kind": "crewed_lander",
+  "battery_wh": {
+   "value": 44800,
+   "status": "verified",
+   "source": "https://ntrs.nasa.gov/api/citations/20090016295/downloads/20090016295.pdf",
+   "note": "4 descent batteries x 400 Ah x 28 V. NASA documents give 400-415 Ah and 28-29 V per descent battery; 400 Ah x 28 V used. Ascent batteries (2 x 296 Ah) are reserved for lift-off and not counted. | The dataset lists \"2312 Ah (64736 Wh) + ALSEP SNAP-27\", which counts batteries that do not stay on the surface (the orbiting module, or the ascent stage); the verified figure is kept."
+  },
+  "solar_w": {
+   "value": 0,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "LM power came from silver-zinc batteries only | The dataset says \"4260 W (CSM yakıt hücreleri sürekli üretim)\"; the verified figure is kept."
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "The dataset says \"1510.0 W (SNAP-27 RTG [1480 Wth] + 2 adet 15 W RHU)\"; the verified value is kept (those units were on the experiments left on the surface, not in the lander)."
+  },
+  "max_slope_deg": {
+   "value": 12,
+   "status": "verified",
+   "source": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/LM_Landing%20Gear1973010151.pdf",
+   "note": "NASA landing-gear analysis: unstable-landing probability 2 in 1000 on slopes <= 12 deg (analysis value, not a quoted requirement)"
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "S-band direct to Earth"
+  },
+  "survival_power_w": {
+   "value": 1600.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1600 W\""
+  },
+  "payload_power_w": {
+   "value": 1380.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1380 W\""
+  }
+ },
+ {
+  "id": "apollo-15",
+  "name": "Apollo 15 (LM Falcon)",
+  "kind": "crewed_lander",
+  "battery_wh": {
+   "value": 56000,
+   "status": "verified",
+   "source": "https://ntrs.nasa.gov/api/citations/20090016295/downloads/20090016295.pdf",
+   "note": "5 descent batteries x 400 Ah x 28 V. NASA documents give 400-415 Ah and 28-29 V per descent battery; 400 Ah x 28 V used. Ascent batteries (2 x 296 Ah) are reserved for lift-off and not counted. | The dataset lists \"2554 Ah (73448 Wh)\", which counts batteries that do not stay on the surface (the orbiting module, or the ascent stage); the verified figure is kept."
+  },
+  "solar_w": {
+   "value": 0,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "LM power came from silver-zinc batteries only | The dataset says \"4260 W (CSM yakıt hücreleri sürekli güç)\"; the verified figure is kept."
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "The dataset says \"1510.0 W (SNAP-27 RTG [1480 Wth] + 2 adet 15 W RHU)\"; the verified value is kept (those units were on the experiments left on the surface, not in the lander)."
+  },
+  "max_slope_deg": {
+   "value": 12,
+   "status": "verified",
+   "source": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/LM_Landing%20Gear1973010151.pdf",
+   "note": "NASA landing-gear analysis: unstable-landing probability 2 in 1000 on slopes <= 12 deg (analysis value, not a quoted requirement) | The dataset says \"25° (LRV-1 gezgininin tırmanabileceği azami zemin eğim sınırı)\"; the verified value is kept."
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "S-band direct to Earth"
+  },
+  "survival_power_w": {
+   "value": 1700.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1700 W\""
+  },
+  "payload_power_w": {
+   "value": 1550.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1550 W\""
+  }
+ },
+ {
+  "id": "apollo-16",
+  "name": "Apollo 16 (LM Orion)",
+  "kind": "crewed_lander",
+  "battery_wh": {
+   "value": 56000,
+   "status": "verified",
+   "source": "https://ntrs.nasa.gov/api/citations/20090016295/downloads/20090016295.pdf",
+   "note": "5 descent batteries x 400 Ah x 28 V. NASA documents give 400-415 Ah and 28-29 V per descent battery; 400 Ah x 28 V used. Ascent batteries (2 x 296 Ah) are reserved for lift-off and not counted. | The dataset lists \"2554 Ah (73448 Wh) + ALSEP RTG\", which counts batteries that do not stay on the surface (the orbiting module, or the ascent stage); the verified figure is kept."
+  },
+  "solar_w": {
+   "value": 0,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "LM power came from silver-zinc batteries only | The dataset says \"4260 W (CSM yakıt hücreleri sürekli güç)\"; the verified figure is kept."
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "The dataset says \"1510.0 W (SNAP-27 RTG [1480 Wth] + 2 adet 15 W RHU)\"; the verified value is kept (those units were on the experiments left on the surface, not in the lander)."
+  },
+  "max_slope_deg": {
+   "value": 12,
+   "status": "verified",
+   "source": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/LM_Landing%20Gear1973010151.pdf",
+   "note": "NASA landing-gear analysis: unstable-landing probability 2 in 1000 on slopes <= 12 deg (analysis value, not a quoted requirement) | The dataset says \"25° (LRV-2 gezgini maksimum zemi tırmanma eğimi)\"; the verified value is kept."
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "S-band direct to Earth"
+  },
+  "survival_power_w": {
+   "value": 1700.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1700 W\""
+  },
+  "payload_power_w": {
+   "value": 1550.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1550 W\""
+  }
+ },
+ {
+  "id": "apollo-17",
+  "name": "Apollo 17 (LM Challenger)",
+  "kind": "crewed_lander",
+  "battery_wh": {
+   "value": 56000,
+   "status": "verified",
+   "source": "https://ntrs.nasa.gov/api/citations/20090016295/downloads/20090016295.pdf",
+   "note": "5 descent batteries x 400 Ah x 28 V. NASA documents give 400-415 Ah and 28-29 V per descent battery; 400 Ah x 28 V used. Ascent batteries (2 x 296 Ah) are reserved for lift-off and not counted. | The dataset lists \"2554 Ah (73448 Wh) + ALSEP RTG\", which counts batteries that do not stay on the surface (the orbiting module, or the ascent stage); the verified figure is kept."
+  },
+  "solar_w": {
+   "value": 0,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "LM power came from silver-zinc batteries only | The dataset says \"4260 W (CSM yakıt hücreleri sürekli güç)\"; the verified figure is kept."
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "The dataset says \"1510.0 W (SNAP-27 RTG [1480 Wth] + 2 adet 15 W RHU)\"; the verified value is kept (those units were on the experiments left on the surface, not in the lander)."
+  },
+  "max_slope_deg": {
+   "value": 12,
+   "status": "verified",
+   "source": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/LM_Landing%20Gear1973010151.pdf",
+   "note": "NASA landing-gear analysis: unstable-landing probability 2 in 1000 on slopes <= 12 deg (analysis value, not a quoted requirement) | The dataset says \"25° (LRV-3 gezgin tırmanış açısı)\"; the verified value is kept."
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "verified",
+   "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+   "note": "S-band direct to Earth"
+  },
+  "survival_power_w": {
+   "value": 1720.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1720 W\""
+  },
+  "payload_power_w": {
+   "value": 1560.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1560 W\""
+  }
+ },
+ {
+  "id": "luna-16",
+  "name": "Luna 16",
+  "kind": "sample_return",
+  "battery_wh": {
+   "value": 4480.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"160 Ah (4480 Wh)\""
+  },
+  "solar_w": {
+   "value": 0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"110 W (İniş ve dönüş modülleri birincil batarya/jeneratör gücü)\". That figure is not power from solar panels on the lander (no panels, a battery-equivalent output, or the orbiting module's fuel cells), so the lander's own solar power stays 0."
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"45.0 W (Matkap ve örnek haznesi elektrikli ısıtıcıları)\" (electric heaters draw on the battery; they are not a heat source of their own)"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (İniş platformu ayaklarının denge ve zemin diklik toleransı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (not checked against an agency source)"
+  },
+  "survival_power_w": {
+   "value": 35.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"35 W\""
+  },
+  "payload_power_w": {
+   "value": 75.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"75 W\""
+  }
+ },
+ {
+  "id": "lunokhod-1",
+  "name": "Lunokhod 1",
+  "kind": "rover",
+  "battery_wh": {
+   "value": 5600.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"200 Ah (5600 Wh)\""
+  },
+  "solar_w": {
+   "value": 180.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"180 W (Açılır kapakta yer alan silikon güneş paneli)\""
+  },
+  "radioisotope_heat": {
+   "value": true,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1000.0 W (Polonyum-210 radyoizotop termal ısıtıcı üniteleri)\""
+  },
+  "max_slope_deg": {
+   "value": 20.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"20° (8 bağımsız tekerlekli gezginin güvenle tırmanabileceği azami eğim)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (not checked against an agency source)"
+  },
+  "survival_power_w": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15 W\""
+  },
+  "payload_power_w": {
+   "value": 100.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"100 W\""
+  }
+ },
+ {
+  "id": "lunokhod-2",
+  "name": "Lunokhod 2",
+  "kind": "rover",
+  "battery_wh": {
+   "value": 6720.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"240 Ah (6720 Wh)\""
+  },
+  "solar_w": {
+   "value": 220.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"220 W (Artırılmış alanlı açılır kapak güneş paneli)\""
+  },
+  "radioisotope_heat": {
+   "value": true,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1000.0 W (Polonyum-210 radyoizotop termal ısıtıcı ünitesi)\""
+  },
+  "max_slope_deg": {
+   "value": 20.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"20° (8 tekerlekli şasi azami tırmanış eğimi)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (not checked against an agency source)"
+  },
+  "survival_power_w": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15 W\""
+  },
+  "payload_power_w": {
+   "value": 120.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"120 W\""
+  }
+ },
+ {
+  "id": "luna-24",
+  "name": "Luna 24",
+  "kind": "sample_return",
+  "battery_wh": {
+   "value": 4900.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"175 Ah (4900 Wh)\""
+  },
+  "solar_w": {
+   "value": 0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"120 W (İniş platformu batarya destekli sabit güç)\". That figure is not power from solar panels on the lander (no panels, a battery-equivalent output, or the orbiting module's fuel cells), so the lander's own solar power stays 0."
+  },
+  "radioisotope_heat": {
+   "value": null,
+   "status": "unknown"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (İniş ayakları ve derin matkap platformu diklik sınırı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (not checked against an agency source)"
+  },
+  "survival_power_w": {
+   "value": 35.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"35 W\""
+  },
+  "payload_power_w": {
+   "value": 85.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"85 W\""
+  }
+ },
+ {
+  "id": "chang-e-3-yutu",
+  "name": "Chang'e 3 & Yutu",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 2380.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"85 Ah (2380 Wh)\""
+  },
+  "solar_w": {
+   "value": 450,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"550 W (Lander 450 W + Yutu 100 W güneş panelleri)\"; the lander's own 450 W is used (the rover's 100 W does not charge the lander)"
+  },
+  "radioisotope_heat": {
+   "value": true,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"120.0 W (Pu-238 radyoizotop ısıtma üniteleri - RHU)\""
+  },
+  "max_slope_deg": {
+   "value": 20.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"20° (Yutu gezgininin güvenle sürüş yapabileceği azami zemin eğimi)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 45.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"45 W\""
+  },
+  "payload_power_w": {
+   "value": 265.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"265 W\""
+  }
+ },
+ {
+  "id": "chang-e-4-yutu-2",
+  "name": "Chang'e 4 & Yutu-2",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 2380.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"85 Ah (2380 Wh)\""
+  },
+  "solar_w": {
+   "value": 450,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"550 W (Lander 450 W + Yutu-2 100 W güneş panelleri)\"; the lander's own 450 W is used (the rover's 100 W does not charge the lander)"
+  },
+  "radioisotope_heat": {
+   "value": true,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"120.0 W (Pu-238 radyoizotop ısıtma üniteleri - RHU)\""
+  },
+  "max_slope_deg": {
+   "value": 20.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"20° (Yutu-2 gezgininin tırmanış ve sürüş açısı sınırı)\""
+  },
+  "comms": {
+   "value": "relay",
+   "status": "verified",
+   "note": "far-side landing: no line of sight to Earth, so a relay satellite is physically required"
+  },
+  "survival_power_w": {
+   "value": 45.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"45 W\""
+  },
+  "payload_power_w": {
+   "value": 270.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"270 W\""
+  }
+ },
+ {
+  "id": "beresheet",
+  "name": "Beresheet",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 896.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"32 Ah (896 Wh)\""
+  },
+  "solar_w": {
+   "value": 250.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"250 W (Üst güverte GaAs güneş panelleri)\""
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"35.0 W (Elektronik bölmesi ve motor valfi elektrikli ısıtıcıları)\" (electric heaters draw on the battery; they are not a heat source of their own)"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (4 karbon kompozit yaylı iniş ayağının zemin tolerans açısı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 65.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"65 W\""
+  },
+  "payload_power_w": {
+   "value": 100.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"100 W\""
+  }
+ },
+ {
+  "id": "chandrayaan-2-vikram",
+  "name": "Chandrayaan-2 (Vikram & Pragyan)",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 3520.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"110 Ah (3520 Wh)\""
+  },
+  "solar_w": {
+   "value": 650,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"1700 W (Yörünge 1000 W + Vikram 650 W + Pragyan 50 W)\". That figure is not power from solar panels on the lander (no panels, a battery-equivalent output, or the orbiting module's fuel cells), so the lander's own solar power stays 650."
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"160.0 W (Modül içi elektrikli direnç ve kablo ısıtıcıları)\" (electric heaters draw on the battery; they are not a heat source of their own)"
+  },
+  "max_slope_deg": {
+   "value": 12.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"12° (Vikram iniş ayakları ve Pragyan gezgin tırmanış sınırı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 480.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"480 W\""
+  },
+  "payload_power_w": {
+   "value": 700.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"700 W\""
+  }
+ },
+ {
+  "id": "chang-e-5",
+  "name": "Chang'e 5",
+  "kind": "sample_return",
+  "battery_wh": {
+   "value": 5760.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"160 Ah (5760 Wh)\""
+  },
+  "solar_w": {
+   "value": 500,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"2000 W (Yörünge 1500 W + İniş aracı 500 W güneş panelleri)\"; the landing module's own 500 W is used (the 1500 W orbiter stays in orbit)"
+  },
+  "radioisotope_heat": {
+   "value": null,
+   "status": "unknown"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (İniş ayaklarının ve örnek matkap platformunun zemin toleransı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 450.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"450 W\""
+  },
+  "payload_power_w": {
+   "value": 700.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"700 W\""
+  }
+ },
+ {
+  "id": "hakuto-r-m1",
+  "name": "Hakuto-R M1",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 980.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"35 Ah (980 Wh)\""
+  },
+  "solar_w": {
+   "value": 300.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"300 W (Gövdeye sabit 4 adet çok eklemli GaAs güneş paneli)\""
+  },
+  "radioisotope_heat": {
+   "value": null,
+   "status": "unknown"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (4 karbon kompozit şok emici iniş ayağı zemin tolerans açısı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 70.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"70 W\""
+  },
+  "payload_power_w": {
+   "value": 115.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"115 W\""
+  }
+ },
+ {
+  "id": "luna-25",
+  "name": "Luna 25",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 2240.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"80 Ah (2240 Wh)\""
+  },
+  "solar_w": {
+   "value": 400.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"400 W (Gövde yanlarında 4 sabit güneş paneli)\""
+  },
+  "radioisotope_heat": {
+   "value": true,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"80.0 W (Pu-238 radyoizotop ısıtma üniteleri - RHU)\""
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (Kutup bölgesi 4 şok emici ayaklı iniş platformu sınırı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 40.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"40 W\""
+  },
+  "payload_power_w": {
+   "value": 220.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"220 W\""
+  }
+ },
+ {
+  "id": "chandrayaan-3-vikram-pragyan",
+  "name": "Chandrayaan-3 (Vikram & Pragyan)",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 3040.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"95 Ah (3040 Wh)\""
+  },
+  "solar_w": {
+   "value": 738,
+   "status": "verified",
+   "source": "https://www.isro.gov.in/NSPD2024/assets/pdf/CH3%20Landing%20Brochure-Pagewise.pdf",
+   "note": "lander power generation per ISRO brochure | The dataset says \"1546 W (İtki Modülü 758 W + Vikram 738 W + Pragyan 50 W)\"; the verified figure is kept."
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"60.0 W (Elektronik bölmesi ve batarya elektrikli ısıtıcıları)\" (electric heaters draw on the battery; they are not a heat source of their own)"
+  },
+  "max_slope_deg": {
+   "value": 12.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"12° (Vikram güçlendirilmiş 4 iniş ayağı ve Pragyan tırmanış açısı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 65.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"65 W\""
+  },
+  "payload_power_w": {
+   "value": 365.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"365 W\""
+  }
+ },
+ {
+  "id": "slim",
+  "name": "SLIM",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 700.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"25 Ah (700 Wh)\""
+  },
+  "solar_w": {
+   "value": 300.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"300 W (Gövde üzeri ince film güneş hücreleri)\""
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"45.0 W (Aviyonik kutusu elektrikli direnç ısıtıcıları)\" (electric heaters draw on the battery; they are not a heat source of their own)"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (3D baskılı alüminyum kafes 5 ayaklı devrilme/iniş tolerans açısı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 35.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"35 W\""
+  },
+  "payload_power_w": {
+   "value": 160.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"160 W\""
+  }
+ },
+ {
+  "id": "peregrine-mission-1",
+  "name": "Peregrine Mission 1",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 1120.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"40 Ah (1120 Wh)\""
+  },
+  "solar_w": {
+   "value": 450.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"450 W (Üst güverte GaAs güneş paneli)\""
+  },
+  "radioisotope_heat": {
+   "value": false,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"70.0 W (Valf bloğu ve faydalı yük elektrikli ısıtıcıları)\" (electric heaters draw on the battery; they are not a heat source of their own)"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (4 şok emici ayaklı iniş platformu zemin tolerans açısı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 95.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"95 W\""
+  },
+  "payload_power_w": {
+   "value": 185.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"185 W\""
+  }
+ },
+ {
+  "id": "im-1-odysseus",
+  "name": "IM-1 Odysseus",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 700.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"25 Ah (700 Wh)\""
+  },
+  "solar_w": {
+   "value": 200.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"200 W (3 adet GaAs güneş paneli: 1 üst, 2 yan)\""
+  },
+  "radioisotope_heat": {
+   "value": null,
+   "status": "unknown"
+  },
+  "max_slope_deg": {
+   "value": 10.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"10° (6 karbon kompozit şok emici ayaklı iniş yapısı eğim toleransı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 55.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"55 W\""
+  },
+  "payload_power_w": {
+   "value": 90.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"90 W\""
+  }
+ },
+ {
+  "id": "chang-e-6",
+  "name": "Chang'e 6",
+  "kind": "sample_return",
+  "battery_wh": {
+   "value": 5760.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"160 Ah (5760 Wh)\""
+  },
+  "solar_w": {
+   "value": 500,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"2000 W (Yörünge 1500 W + İniş aracı 500 W güneş panelleri)\"; the landing module's own 500 W is used (the 1500 W orbiter stays in orbit)"
+  },
+  "radioisotope_heat": {
+   "value": true,
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "RHU thermal control per dataset"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (İniş ayaklarının ve uzak yüz matkap platformunun zemin açısı)\""
+  },
+  "comms": {
+   "value": "relay",
+   "status": "verified",
+   "note": "far-side landing: no line of sight to Earth, so a relay satellite is physically required"
+  },
+  "survival_power_w": {
+   "value": 450.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"450 W\""
+  },
+  "payload_power_w": {
+   "value": 730.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"730 W\""
+  }
+ },
+ {
+  "id": "blue-ghost-mission-1",
+  "name": "Blue Ghost Mission 1",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 1680.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"60 Ah (1680 Wh)\""
+  },
+  "solar_w": {
+   "value": 400,
+   "status": "verified",
+   "source": "https://fireflyspace.com/missions/blue-ghost-mission-1/",
+   "note": "up to 400 W per Firefly"
+  },
+  "radioisotope_heat": {
+   "value": null,
+   "status": "unknown"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (4 karbon kompozit ayak ve temas sensörlü motor kapama sistemi)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 110.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"110 W\""
+  },
+  "payload_power_w": {
+   "value": 230.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"230 W\""
+  }
+ },
+ {
+  "id": "im-2-athena",
+  "name": "IM-2 Athena",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 700.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"25 Ah (700 Wh)\""
+  },
+  "solar_w": {
+   "value": 200.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"200 W (3 adet GaAs güneş paneli)\""
+  },
+  "radioisotope_heat": {
+   "value": null,
+   "status": "unknown"
+  },
+  "max_slope_deg": {
+   "value": 10.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"10° (6 karbon kompozit ayaklı kutup iniş platformu eğim toleransı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 55.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"55 W\""
+  },
+  "payload_power_w": {
+   "value": 100.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"100 W\""
+  }
+ },
+ {
+  "id": "hakuto-r-m2-resilience",
+  "name": "Hakuto-R M2 Resilience",
+  "kind": "lander",
+  "battery_wh": {
+   "value": 980.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"35 Ah (980 Wh)\""
+  },
+  "solar_w": {
+   "value": 315.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"315 W (Gövdeye sabit 4 adet GaAs güneş paneli)\""
+  },
+  "radioisotope_heat": {
+   "value": null,
+   "status": "unknown"
+  },
+  "max_slope_deg": {
+   "value": 15.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"15° (4 karbon kompozit şok emici ayak zemin toleransı)\""
+  },
+  "comms": {
+   "value": "direct_to_earth",
+   "status": "unverified",
+   "source": "user dataset Ay_Uzay_Araclari_Kapsamli_Liste.xlsx (updated version; not checked against an agency source)",
+   "note": "ground-station link per dataset text"
+  },
+  "survival_power_w": {
+   "value": 70.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"70 W\""
+  },
+  "payload_power_w": {
+   "value": 120.0,
+   "status": "unverified",
+   "source": "Uzay Araç Güncel Bilgileri.txt, 2026-11-15 (project dataset; not re-checked against the cited agency page)",
+   "note": "dataset cell: \"120 W\""
+  }
+ }
+]

@@ -1,0 +1,439 @@
+{
+ "luna-1": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Luna_1",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "luna-2": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Luna_2",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "luna-3": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Luna_3",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "ranger-7": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1964-041A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": [
+   {
+    "field": "height",
+    "from": "3.10",
+    "to": "3.60",
+    "why": "NASA NSSDCA: overall height 3.6 m"
+   },
+   {
+    "field": "serviceThrustN",
+    "from": "222",
+    "to": "224",
+    "why": "NASA NSSDCA: 224 N monopropellant hydrazine engine"
+   }
+  ]
+ },
+ "luna-9": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Luna_9",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "luna-10": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Luna_10",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "surveyor-1": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-045A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated). The 39,140 N solid retro-rocket thrust is not stated on the NASA page (it lists only the 130–460 N vernier engines); kept as written.",
+  "changes": []
+ },
+ "lunar-orbiter-1": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-073A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated). The 445 N engine thrust is not stated on the NASA page; kept as written.",
+  "changes": [
+   {
+    "field": "massKg",
+    "from": "386.9",
+    "to": "385.6",
+    "why": "NASA NSSDCA: launch mass 385.6 kg"
+   }
+  ]
+ },
+ "zond-5": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Zond_5",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "apollo-8": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1968-118A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": [
+   {
+    "field": "massKg",
+    "from": "28833",
+    "to": "28817",
+    "why": "NASA NSSDCA: CSM mass 28,817 kg"
+   },
+   {
+    "field": "massNote",
+    "from": "NSSDCA: CSM-103 fırlatma kütlesi (LM taşınmadı)",
+    "to": "NSSDCA: CSM-103 fırlatma kütlesi, 28.817 kg (LM taşınmadı)",
+    "why": "NASA NSSDCA"
+   }
+  ]
+ },
+ "apollo-10": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-043A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": []
+ },
+ "apollo-11": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": []
+ },
+ "apollo-12": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": []
+ },
+ "apollo-13": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1970-029A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": []
+ },
+ "apollo-14": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-008A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": []
+ },
+ "apollo-15": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": [
+   {
+    "field": "massKg",
+    "from": "46782",
+    "to": "46833",
+    "why": "NASA NSSDCA gives the CSM-112 mass as 30,371 kg (the dataset had 30,320 kg, which is Apollo 17's); total = 30,371 + LM-10 16,462 (LM value as in the dataset)"
+   },
+   {
+    "field": "massNote",
+    "from": "NSSDCA: CSM-112 (30.320 kg) + LM-10 Falcon (16.462 kg, LRV-1 210 kg dahil)",
+    "to": "NSSDCA: CSM-112 (30.371 kg) + LM-10 Falcon (16.462 kg, LRV-1 210 kg dahil)",
+    "why": "NASA NSSDCA"
+   }
+  ]
+ },
+ "apollo-16": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-031A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": []
+ },
+ "apollo-17": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-096A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": [
+   {
+    "field": "massKg",
+    "from": "46810",
+    "to": "46761",
+    "why": "NASA NSSDCA gives the CSM-114 mass as 30,320 kg (the dataset had 30,369 kg); total = 30,320 + LM-12 16,441 (LM value as in the dataset)"
+   },
+   {
+    "field": "massNote",
+    "from": "NSSDCA: CSM-114 (30.369 kg) + LM-12 Challenger (16.441 kg, LRV-3 dahil)",
+    "to": "NSSDCA: CSM-114 (30.320 kg) + LM-12 Challenger (16.441 kg, LRV-3 dahil)",
+    "why": "NASA NSSDCA"
+   }
+  ]
+ },
+ "luna-16": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Luna_16",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "lunokhod-1": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Lunokhod_1",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "lunokhod-2": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Lunokhod_2",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "luna-24": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Luna_24",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "hiten": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Hiten",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "clementine": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Clementine_(spacecraft)",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset. Solar power differs between sources (dataset 360 W, English Wikipedia 1,850 W); not resolved.",
+  "changes": []
+ },
+ "lunar-prospector": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1998-001A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": [
+   {
+    "field": "height",
+    "from": "1.22",
+    "to": "1.28",
+    "why": "NASA NSSDCA: drum 1.28 m high"
+   },
+   {
+    "field": "width",
+    "from": "1.40",
+    "to": "1.37",
+    "why": "NASA NSSDCA: drum 1.37 m in diameter"
+   }
+  ]
+ },
+ "smart-1": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/SMART-1",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "kaguya-selene": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/SELENE",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "chang-e-1": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Chang'e_1",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "chandrayaan-1": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Chandrayaan-1",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "lro": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-031A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": [
+   {
+    "field": "massKg",
+    "from": "1916",
+    "to": "1846",
+    "why": "NASA NSSDCA: launch mass about 1,846 kg, dry mass under 949 kg (the dataset had 1,916 kg)"
+   },
+   {
+    "field": "massNote",
+    "from": "NSSDCA: Toplam fırlatma kütlesi (1.018 kg kuru + 898 kg yakıt)",
+    "to": "NSSDCA: Fırlatma kütlesi yaklaşık 1.846 kg (kuru kütle 949 kg'dan az)",
+    "why": "NASA NSSDCA"
+   }
+  ]
+ },
+ "lcross": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-031B",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": [
+   {
+    "field": "massKg",
+    "from": "891",
+    "to": "834",
+    "why": "NASA NSSDCA: Shepherding Spacecraft 534 kg dry + 300 kg hydrazine; the 2,000 kg Centaur is a separate stage (the dataset had 891 kg)"
+   },
+   {
+    "field": "massNote",
+    "from": "NSSDCA: Shepherding Spacecraft (585 kg kuru) + 2.305 kg Centaur üst kademesi",
+    "to": "NSSDCA: Shepherding Spacecraft 534 kg kuru + 300 kg hidrazin; 2.000 kg Centaur üst kademesi ayrı, kütleye dahil değil",
+    "why": "NASA NSSDCA"
+   }
+  ]
+ },
+ "chang-e-2": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Chang'e_2",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "grail-a-b": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-046A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": [
+   {
+    "field": "massKg",
+    "from": "307",
+    "to": "202.4",
+    "why": "NASA NSSDCA: each spacecraft fully fuelled 202.4 kg, dry 132.6 kg (the dataset had 307 kg)"
+   },
+   {
+    "field": "massNote",
+    "from": "NSSDCA: Her bir uydu fırlatma kütlesi (132.6 kg kuru + 106 kg yakıt)",
+    "to": "NSSDCA: Her bir uydu tam yakıtlı 202,4 kg (132,6 kg kuru)",
+    "why": "NASA NSSDCA"
+   }
+  ]
+ },
+ "ladee": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2013-047A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": []
+ },
+ "chang-e-3-yutu": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Chang'e_3",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "chang-e-4-yutu-2": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Chang'e_4",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": [
+   {
+    "field": "massNote",
+    "from": "CNSA / NSSDCA: Toplam fırlatma (İniş aracı 1.200 kg, Yutu-2 135 kg)",
+    "to": "CNSA / NSSDCA: Toplam fırlatma (İniş aracı 1.200 kg, Yutu-2 140 kg)",
+    "why": "Wikipedia: rover 140 kg (the dataset had 135 kg)"
+   }
+  ]
+ },
+ "beresheet": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Beresheet",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "chandrayaan-2-vikram": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Chandrayaan-2",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "chang-e-5": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Chang'e_5",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "danuri-kplo": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Danuri",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "artemis-i-orion": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2022-156A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": []
+ },
+ "hakuto-r-m1": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Hakuto-R_Mission_1",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "luna-25": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Luna_25",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "chandrayaan-3-vikram-pragyan": {
+  "level": "wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Chandrayaan-3",
+  "note": "The cited NASA NSSDCA page could not be opened (the ID in the dataset does not resolve), so mass and power were compared with the English Wikipedia mission page instead; they agree.",
+  "changes": []
+ },
+ "slim": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Smart_Lander_for_Investigating_Moon",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "peregrine-mission-1": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Peregrine_Mission_One",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "im-1-odysseus": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/IM-1",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "chang-e-6": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Chang'e_6",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "blue-ghost-mission-1": {
+  "level": "nasa",
+  "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2025-010A",
+  "note": "Compared with the NASA NSSDCA page for this craft (mass, size, power, thrust where stated).",
+  "changes": [
+   {
+    "field": "solarW",
+    "from": "650 (450 W nominal)",
+    "to": "400",
+    "why": "Firefly: up to 400 W (same figure the vehicle profile already uses as verified); the dataset had 650 W"
+   }
+  ]
+ },
+ "im-2-athena": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/IM-2",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset.",
+  "changes": []
+ },
+ "hakuto-r-m2-resilience": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Hakuto-R_Mission_2",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset. The ispace link in the dataset returns \"not found\"; replaced with the Wikipedia page.",
+  "changes": []
+ },
+ "artemis-ii": {
+  "level": "unchecked",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Artemis_2",
+  "note": "No second source with comparable numbers was found, so the values are shown as written in the dataset. The NASA mission page lists the flight but was not compared number by number.",
+  "changes": []
+ }
+}

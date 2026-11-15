@@ -1,0 +1,10 @@
+numpy
+spiceypy
+requests
+python-dotenv
+fastapi
+uvicorn
+pydantic
+pytest
+httpx
+pillow

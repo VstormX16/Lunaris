@@ -1,0 +1,39 @@
+# secrets and local settings
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Node / build output
+node_modules/
+frontend/dist/
+
+# Data: downloaded from NASA by `python -m data_engine` (about 650 MB) or generated locally. Not stored in the repository.
+# The trained models are small and ARE kept, so a fresh clone runs without training:
+#   data/assistant_nlu_*.npz, data/assistant_feedback.json, data/cache/surrogate.npz, data/cache/surrogate_metrics.json
+data/*
+!data/assistant_nlu_*.npz
+!data/assistant_feedback.json
+!data/cache/
+data/cache/*
+!data/cache/surrogate.npz
+!data/cache/surrogate_metrics.json
+# local databases and logs (History, unrecognised assistant questions) are personal to whoever runs the app
+*.sqlite3
+*.jsonl
+
+# originals of the spacecraft photos (the web copies live in frontend/public/spacecraft)
+Ay Uzay Araçları Fotoğraflar/
+
+# tooling output
+graphify-out/
+*.log
+.claude/
+
+# working notes kept on the developer's machine only
+INSTRUCTIONS.md
+CLAUDE.md
+PLAN.md

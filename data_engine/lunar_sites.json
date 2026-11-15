@@ -1,0 +1,250 @@
+[
+ {
+  "id": "luna-9",
+  "name": "Luna 9",
+  "kind": "landing",
+  "lat": 7.13,
+  "lon": -64.37,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "surveyor-1",
+  "name": "Surveyor 1",
+  "kind": "landing",
+  "lat": -2.474,
+  "lon": -43.339,
+  "source": "Wikipedia mission page (more precise than the landings list; cross-checked against it)"
+ },
+ {
+  "id": "apollo-11",
+  "name": "Apollo 11 (LM Eagle)",
+  "kind": "landing",
+  "lat": 0.6741,
+  "lon": 23.473,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "apollo-12",
+  "name": "Apollo 12 (LM Intrepid)",
+  "kind": "landing",
+  "lat": -3.0124,
+  "lon": -23.4216,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "apollo-14",
+  "name": "Apollo 14 (LM Antares)",
+  "kind": "landing",
+  "lat": -3.6453,
+  "lon": -17.4714,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "apollo-15",
+  "name": "Apollo 15 (LM Falcon)",
+  "kind": "landing",
+  "lat": 26.1322,
+  "lon": 3.6339,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "apollo-16",
+  "name": "Apollo 16 (LM Orion)",
+  "kind": "landing",
+  "lat": -8.973,
+  "lon": 15.5002,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "apollo-17",
+  "name": "Apollo 17 (LM Challenger)",
+  "kind": "landing",
+  "lat": 20.1908,
+  "lon": 30.7717,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "luna-16",
+  "name": "Luna 16",
+  "kind": "landing",
+  "lat": -0.5137,
+  "lon": 56.3638,
+  "source": "Wikipedia mission page (more precise than the landings list; cross-checked against it)"
+ },
+ {
+  "id": "lunokhod-1",
+  "name": "Lunokhod 1",
+  "kind": "landing",
+  "lat": 38.2378,
+  "lon": -35.0017,
+  "source": "Wikipedia mission page (more precise than the landings list; cross-checked against it)"
+ },
+ {
+  "id": "lunokhod-2",
+  "name": "Lunokhod 2",
+  "kind": "landing",
+  "lat": 25.85,
+  "lon": 30.45,
+  "source": "Wikipedia list of landings (single source; the mission page gives no coordinates)"
+ },
+ {
+  "id": "luna-24",
+  "name": "Luna 24",
+  "kind": "landing",
+  "lat": 12.7145,
+  "lon": 62.2097,
+  "source": "Wikipedia mission page (more precise than the landings list; cross-checked against it)"
+ },
+ {
+  "id": "chang-e-3-yutu",
+  "name": "Chang'e 3 & Yutu",
+  "kind": "landing",
+  "lat": 44.1214,
+  "lon": -19.5116,
+  "source": "Wikipedia mission page (more precise than the landings list; cross-checked against it)"
+ },
+ {
+  "id": "chang-e-4-yutu-2",
+  "name": "Chang'e 4 & Yutu-2",
+  "kind": "landing",
+  "lat": -45.444,
+  "lon": 177.599,
+  "source": "Wikipedia mission page (more precise than the landings list; cross-checked against it)"
+ },
+ {
+  "id": "beresheet",
+  "name": "Beresheet",
+  "kind": "crash",
+  "lat": 32.5956,
+  "lon": 19.3496,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "chandrayaan-2-vikram",
+  "name": "Chandrayaan-2 (Vikram & Pragyan)",
+  "kind": "crash",
+  "lat": -70.881,
+  "lon": 22.784,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "chang-e-5",
+  "name": "Chang'e 5",
+  "kind": "landing",
+  "lat": 43.0576,
+  "lon": -51.9161,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "hakuto-r-m1",
+  "name": "Hakuto-R M1",
+  "kind": "crash",
+  "lat": 47.581,
+  "lon": 44.094,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "luna-25",
+  "name": "Luna 25",
+  "kind": "crash",
+  "lat": -57.865,
+  "lon": 61.36,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "chandrayaan-3-vikram-pragyan",
+  "name": "Chandrayaan-3 (Vikram & Pragyan)",
+  "kind": "landing",
+  "lat": -69.373,
+  "lon": 32.319,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "slim",
+  "name": "SLIM",
+  "kind": "landing",
+  "lat": -13.316,
+  "lon": 25.251,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "im-1-odysseus",
+  "name": "IM-1 Odysseus",
+  "kind": "landing",
+  "lat": -80.13,
+  "lon": 1.44,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "chang-e-6",
+  "name": "Chang'e 6",
+  "kind": "landing",
+  "lat": -41.6385,
+  "lon": -153.9852,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "blue-ghost-mission-1",
+  "name": "Blue Ghost Mission 1",
+  "kind": "landing",
+  "lat": 18.56,
+  "lon": 61.81,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "im-2-athena",
+  "name": "IM-2 Athena",
+  "kind": "landing",
+  "lat": -84.7906,
+  "lon": 29.1957,
+  "source": "Wikipedia mission page (more precise than the landings list; cross-checked against it)"
+ },
+ {
+  "id": "hakuto-r-m2-resilience",
+  "name": "Hakuto-R M2 Resilience",
+  "kind": "crash",
+  "lat": 60.5,
+  "lon": -4.6,
+  "source": "Wikipedia list of landings and the mission's own page (agree within 100 m); Apollo also checked against NASA NSSDCA"
+ },
+ {
+  "id": "shackleton-rim",
+  "name": "Shackleton rim",
+  "kind": "candidate",
+  "lat": -89.54,
+  "lon": 0.0,
+  "source": "Project candidate list (south-pole region of interest)"
+ },
+ {
+  "id": "faustini-rim-a",
+  "name": "Faustini rim A",
+  "kind": "candidate",
+  "lat": -87.3,
+  "lon": 84.0,
+  "source": "Project candidate list (south-pole region of interest)"
+ },
+ {
+  "id": "haworth",
+  "name": "Haworth crater",
+  "kind": "candidate",
+  "lat": -87.45,
+  "lon": -4.5,
+  "source": "Project candidate list (south-pole region of interest)"
+ },
+ {
+  "id": "nobile-rim-1",
+  "name": "Nobile rim 1",
+  "kind": "candidate",
+  "lat": -85.2,
+  "lon": 53.5,
+  "source": "Project candidate list (south-pole region of interest)"
+ },
+ {
+  "id": "malapert-summit",
+  "name": "Malapert summit",
+  "kind": "candidate",
+  "lat": -85.987,
+  "lon": 2.08,
+  "source": "Project candidate list (south-pole region of interest)"
+ }
+]
