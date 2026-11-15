@@ -451,3 +451,14 @@ def test_libration_is_the_reason_earth_is_seen_from_the_pole_and_changes_nothing
     # the planner/analysis Earth-in-view number is the same physics as the libration report's "real" number
     q = client.post("/query", json={"lat": -89.54, "lon": 0.0, "utc": "2026-12-01T00:00:00"}).json()
     assert q["window"]["dte_fraction"] == pytest.approx(pole["dte_fraction"], abs=0.02)
+
+
+def test_a_date_spice_cannot_use_is_a_422_everywhere_never_a_500(client):
+    site = {"lat": -85.987, "lon": 2.08}
+    v = "chandrayaan-3-vikram-pragyan"
+    for path, body in (("/analyze", {**site, "start_utc": "not-a-date"}), ("/analyze", {**site, "start_utc": "3500-01-01T00:00:00"}),
+                       ("/vehicle-assessment", {"vehicle_id": v, **site, "start_utc": "xx"}), ("/vehicle-assessment", {"vehicle_id": v, **site, "start_utc": "3500-01-01T00:00:00"}),
+                       ("/planner", {"vehicle_id": v, **site, "start_date": "3500-01-01", "span_days": 30}),
+                       ("/vehicle-preview", {**_DESIGN, **site, "start_utc": "zz"}), ("/libration", {**site, "start_utc": "xx"})):
+        r = client.post(path, json=body)
+        assert r.status_code == 422 and "invalid time" in r.json()["detail"], (path, r.status_code)

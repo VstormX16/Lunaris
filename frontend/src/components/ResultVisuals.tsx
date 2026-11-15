@@ -308,6 +308,7 @@ const STARS = (() => { // a fixed scatter (decoration only: the real star positi
 })()
 const COMPASS = [{ a: 0, t: 'N' }, { a: 45, t: 'NE' }, { a: 90, t: 'E' }, { a: 135, t: 'SE' }, { a: 180, t: 'S' }, { a: 225, t: 'SW' }, { a: 270, t: 'W' }, { a: 315, t: 'NW' }]
 
+const bottom = -2 // degrees: the lowest elevation the sky picture shows (a little below the horizon)
 /** What you would see turning around on the spot: the terrain skyline against the sky, and where the Sun and Earth travel over 30 days. */
 export function SkyDiagram({ ts, horizon, hasRelay }: { ts: TimeSeries; horizon: { az_deg: number[]; el_deg: number[] }; hasRelay: boolean }) {
   const W = 460
@@ -315,7 +316,6 @@ export function SkyDiagram({ ts, horizon, hasRelay }: { ts: TimeSeries; horizon:
   const skyMax = Math.max(...horizon.el_deg)
   const bodiesMax = Math.max(...ts.sun_elevation_deg, ...(hasRelay ? [] : ts.earth_elevation_deg))
   const top = Math.min(90, Math.max(10, Math.ceil((Math.max(skyMax, bodiesMax) + 2) / 2) * 2))
-  const bottom = -2
   const Y = (el: number) => ((top - el) / (top - bottom)) * H
   const norm = (az: number) => ((az % 360) + 360) % 360
 

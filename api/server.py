@@ -7,7 +7,8 @@ from datetime import datetime, timezone
 from contextlib import asynccontextmanager
 
 import numpy as np
-from fastapi import FastAPI, HTTPException, Query, Response
+from fastapi import FastAPI, HTTPException, Query, Request, Response
+from fastapi.responses import JSONResponse
 from pydantic import ValidationError
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -75,6 +76,13 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.exception_handler(spice_loader.sp.stypes.SpiceyError)
+async def _bad_time(_: Request, e):
+    """A date SPICE cannot parse, or one outside the span the kernels cover, is the caller's mistake (422), not a crash (500)."""
+    return JSONResponse(status_code=422, content={"detail": f"invalid time: {e.short}"})
+
 
 
 def _dem():

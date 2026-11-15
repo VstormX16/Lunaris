@@ -1,4 +1,4 @@
-import { Bot, CalendarRange, ChevronDown, Home, MessageSquare, Clock, Filter, Map as MapIcon, PanelLeft, Rotate3d, Rocket, Satellite, Search, Orbit, Target, Trash2 } from 'lucide-react'
+import { ArrowLeft, Bot, CalendarRange, ChevronDown, Home, MessageSquare, Clock, Filter, Map as MapIcon, PanelLeft, Rotate3d, Rocket, Satellite, Search, Orbit, Target, Trash2 } from 'lucide-react'
 import { useRef, useState } from 'react'
 import type { SessionSummary } from '../api'
 import SettingsMenu from './SettingsMenu'
@@ -23,13 +23,15 @@ type Props = {
   onToggle: () => void
   view: View
   onNavigate: (v: View) => void
+  canBack: boolean
+  onBack: () => void
   sessions: SessionSummary[]
   activeSession: string | null
   onOpenSession: (id: string) => void
   onDeleteSession: (id: string) => void
 }
 
-export default function Sidebar({ collapsed, onToggle, view, onNavigate, sessions, activeSession, onOpenSession, onDeleteSession }: Props) {
+export default function Sidebar({ collapsed, onToggle, view, onNavigate, canBack, onBack, sessions, activeSession, onOpenSession, onDeleteSession }: Props) {
   const [confirming, setConfirming] = useState<string | null>(null)
   const [historyOpen, setHistoryOpen] = useState(true)
   const [searching, setSearching] = useState(false)
@@ -58,7 +60,7 @@ export default function Sidebar({ collapsed, onToggle, view, onNavigate, session
       }`}
     >
       <div className="glass-pane h-full overflow-hidden rounded-[10px]">
-        <div className="flex h-full w-[290px] flex-col px-[17px] py-5">
+        <div className="relative flex h-full w-[290px] flex-col px-[17px] py-5">
           <div className="relative h-8">
             {/* the mark turns over on hover and shows its back: a home button */}
             <button
@@ -97,6 +99,18 @@ export default function Sidebar({ collapsed, onToggle, view, onNavigate, session
                 className={`min-w-0 flex-1 bg-transparent px-2 text-[15px] text-ink outline-none transition-opacity duration-500 placeholder:text-muted/60 ${searching ? "opacity-100 delay-200" : "opacity-0"}`}
               />
             </div>
+            {/* Back: one step back through the pages and the operation's steps (the same as the browser's Back). Open sidebar: in the header. */}
+            {!collapsed && (
+              <button
+                aria-label="Back"
+                title="Back"
+                disabled={!canBack}
+                onClick={onBack}
+                className={`grain absolute left-[172px] top-[3px] flex h-[26px] w-[26px] items-center justify-center rounded-[8px] text-muted transition-[opacity,color,background-color] duration-300 hover:bg-active hover:text-brand disabled:pointer-events-none disabled:opacity-30 ${searching ? 'pointer-events-none !opacity-0' : ''}`}
+              >
+                <ArrowLeft size={18} />
+              </button>
+            )}
             <button
               aria-label={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
               onClick={onToggle}
@@ -236,6 +250,17 @@ export default function Sidebar({ collapsed, onToggle, view, onNavigate, session
               <SettingsMenu />
             </div>
           </div>
+          {collapsed && (
+            <button
+              aria-label="Back"
+              title="Back"
+              disabled={!canBack}
+              onClick={onBack}
+              className="grain absolute bottom-5 left-[2px] flex h-[26px] w-[26px] items-center justify-center rounded-[8px] text-muted transition-[opacity,color,background-color] duration-300 hover:bg-active hover:text-brand disabled:pointer-events-none disabled:opacity-30"
+            >
+              <ArrowLeft size={18} />
+            </button>
+          )}
         </div>
       </div>
     </aside>

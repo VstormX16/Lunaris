@@ -44,6 +44,38 @@ export default function App() {
     return () => mq.removeEventListener('change', fold)
   }, [view])
   const [wizard, setWizard] = useState<WizardState>(initialWizard)
+
+  // ---- the browser's Back and Forward (and the mouse and keyboard Back) walk through the pages and through the operation's
+  // steps, instead of leaving the site. The address stays "/"; each entry remembers the page (and the wizard step).
+  const here = view === 'wizard' ? { view, step: wizard.step, editing: wizard.editing } : { view }
+  const hereKey = JSON.stringify(here)
+  const firstEntry = useRef(true)
+  const [depth, setDepth] = useState(0) // how many entries of this visit lie behind the current one: Back is possible when > 0
+  useEffect(() => {
+    if (notFound) return
+    if (firstEntry.current) {
+      firstEntry.current = false
+      window.history.replaceState({ lunaris: here, depth: 0 }, '') // the page the visit began on
+      return
+    }
+    if (JSON.stringify(window.history.state?.lunaris) === hereKey) return // we got here by pressing Back or Forward
+    const d = (window.history.state?.depth ?? 0) + 1
+    window.history.pushState({ lunaris: here, depth: d }, '')
+    setDepth(d)
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- `here` is what hereKey says
+  }, [hereKey, notFound])
+  useEffect(() => {
+    const onPop = (e: PopStateEvent) => {
+      const t = e.state?.lunaris as { view: View; step?: WizardState['step']; editing?: WizardState['editing'] } | undefined
+      if (!t) return
+      setDepth(e.state?.depth ?? 0)
+      setNotFound(false)
+      setView(t.view)
+      if (t.view === 'wizard' && t.step && t.editing) setWizard((w) => ({ ...w, step: t.step!, editing: t.editing! }))
+    }
+    window.addEventListener('popstate', onPop)
+    return () => window.removeEventListener('popstate', onPop)
+  }, [])
   const [sessions, setSessions] = useState<SessionSummary[]>([])
   const [sessionId, setSessionId] = useState<string | null>(null)
   const [chat, setChat] = useState<Chat>(emptyChat) // the conversation the analysis page opens with
@@ -250,6 +282,8 @@ export default function App() {
         view={view}
         onNavigate={navigate}
         sessions={sessions}
+        canBack={depth > 0}
+        onBack={() => window.history.back()}
         activeSession={view === 'assistant' ? freeId : sessionId}
         onOpenSession={(id) => void openSession(id)}
         onDeleteSession={(id) => void removeSession(id)}

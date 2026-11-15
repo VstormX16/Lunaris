@@ -165,6 +165,7 @@ export default function SpacecraftsPage() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search name, country, type, year"
+              aria-label="Search spacecraft"
               className={`rounded-[8px] border border-line bg-white/60 px-3 py-1.5 outline-none focus:border-brand placeholder:text-muted/70 ${split ? 'mt-2 w-full' : 'ml-auto w-72'}`}
             />
           </div>
